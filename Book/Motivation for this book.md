@@ -1,5 +1,5 @@
-# Chapter 1
-This is chapter 1. 
+# Motivation for this book
+
 
 ## Section 1
 This is Section 1 of Chapter 1. 
