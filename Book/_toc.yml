@@ -1,5 +1,5 @@
 format: jb-article
-root: Motivation for this book  
+root: Chapter 1 - Motivation
 sections:
 - file: Chapter 2 
 - file: Chapter 3 
