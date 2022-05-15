@@ -1,4 +1,4 @@
-# Biology basics
+# Chapter 2 - Biology basics and measuring biology
 
 Here I have set out to outline following things:
 

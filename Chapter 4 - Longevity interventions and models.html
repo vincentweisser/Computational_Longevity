@@ -1,0 +1,641 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Longevity interventions and models &#8212; Computational Longevity</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Computational Longevity</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%201%20-%20Motivation.html">
+   Chapter 1 - Motivation
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%202%20-%20Biology%20basics%20and%20measuring%20biology.html">
+   Chapter 2 - Biology basics and measuring biology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%203%20-%20Hallmarks%20and%20biomarkers%20of%20aging.html">
+   Chapter 3 - Hallmarks and biomarkers of aging
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%205%20-%20References.html">
+   References
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/Chapter 4 - Longevity interventions and models.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#genetics-and-molecular-pathways-involved-in-ageing">
+   Genetics and molecular pathways involved in ageing
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#genetics">
+     Genetics
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#molecular-pathways-involved-in-ageing">
+     Molecular pathways involved in ageing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#role-of-the-brain-in-longevity">
+     Role of the brain in longevity
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#chemistry-of-ageing">
+   Chemistry of ageing
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#parabiosis">
+     Parabiosis
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#drug-combinations">
+     Drug combinations
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#drug-repurposing">
+     Drug repurposing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#partial-reprogramming">
+     Partial reprogramming
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#environmental-effects-on-ageing">
+   Environmental effects on ageing
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alternative-aging-interventions">
+   Alternative aging interventions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#model-organisms-for-research-in-ageing-biology">
+   Model organisms for research in ageing biology
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Longevity interventions and models</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#genetics-and-molecular-pathways-involved-in-ageing">
+   Genetics and molecular pathways involved in ageing
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#genetics">
+     Genetics
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#molecular-pathways-involved-in-ageing">
+     Molecular pathways involved in ageing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#role-of-the-brain-in-longevity">
+     Role of the brain in longevity
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#chemistry-of-ageing">
+   Chemistry of ageing
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#parabiosis">
+     Parabiosis
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#drug-combinations">
+     Drug combinations
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#drug-repurposing">
+     Drug repurposing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#partial-reprogramming">
+     Partial reprogramming
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#environmental-effects-on-ageing">
+   Environmental effects on ageing
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alternative-aging-interventions">
+   Alternative aging interventions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#model-organisms-for-research-in-ageing-biology">
+   Model organisms for research in ageing biology
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="longevity-interventions-and-models">
+<h1>Longevity interventions and models<a class="headerlink" href="#longevity-interventions-and-models" title="Permalink to this headline">¶</a></h1>
+<p>We need a way to classify all of the therapeutic interventions. Here we will outline interventions, that have been shown to work in any organism, based on:</p>
+<ul class="simple">
+<li><p>Genetic and molecular pathway basis</p></li>
+<li><p>Chemical basis</p></li>
+<li><p>Environmental basis</p></li>
+<li><p>Alternative longevity interventions</p></li>
+<li><p>Model organisms of aging and its alternatives</p></li>
+</ul>
+<section id="genetics-and-molecular-pathways-involved-in-ageing">
+<h2>Genetics and molecular pathways involved in ageing<a class="headerlink" href="#genetics-and-molecular-pathways-involved-in-ageing" title="Permalink to this headline">¶</a></h2>
+<section id="genetics">
+<h3>Genetics<a class="headerlink" href="#genetics" title="Permalink to this headline">¶</a></h3>
+<p>As with everything else, longevity is heritable, but not as much as one would expect, just around 10-30% in the most recent estimates, depending what you control for (Graham Ruby et al. 2018). As for looking at genes directly, of course the variance explained is lower (“missing heritability”), at around 8% (Wright et al., 2019). If you are curious about your own case, you can upload your sequenced genome data to Promethease, search for ‘longevity’ and it will search and sort results from SNPedia for you, or you can manually have a look here. The effects seem incredibly large, e,g having the right allele of rs2802292 will up to triple your odds to live to 100 years, rs2802288 increases odds of living to 100 by 1.5x, at least in the populations tested.</p>
+<p>Thus one option to lengthen lifespan is to genetically engineer embryos to have the beneficial alleles of these SNPs (SNP being a position in the genome where there are at least two variants in more than 1% of the population. We are 99.9% genetically equal, so SNPs is a way to look at those genes that makes us different)</p>
+</section>
+<section id="molecular-pathways-involved-in-ageing">
+<h3>Molecular pathways involved in ageing<a class="headerlink" href="#molecular-pathways-involved-in-ageing" title="Permalink to this headline">¶</a></h3>
+<p>A biological pathway is a series of actions among molecules in a cell that leads to a certain product or a change in the cell.</p>
+<p>So we have a bunch of proteins in the cells moving around and bumping into each other. Their shape and molecular composition will influence if they will do anything interesting. For example if you put in a vat some hTERT (The protein made by TERT) and hTR (The RNA made by TERC), they will spontaneously combine to form telomerase. In some cases this reactions require organic catalysts - enzymes - and the enzymes in turn sometimes need other molecules (co-factors) to actually be active.</p>
+<p>In cells, there exist defined ways in which proteins react with each other in many ways: Proteins can combine to form larger structures, they can change conformation (shape), react to split into smaller proteins, etc. These usually happen in defined networks, or pathways, which can also feature loops, causing negative or positive feedback, enabling various forms of homeostasis.</p>
+<blockquote>
+<div><p><em><a class="reference external" href="https://nintil.com/longevity/#questions-for-further-analysis">Here</a> you can see a map of the proteins that are involved in regulating longevity, and their interactions.</em></p>
+</div></blockquote>
+<p>Examples of pathways known to have effect on longevity.</p>
+<ul class="simple">
+<li><p>mTOR/AMPK</p></li>
+<li><p>IGF-1/PI3K/FOXO</p></li>
+<li><p>Klotho and NRF2</p></li>
+<li><p>Sirtuins</p></li>
+</ul>
+<p><strong>mTOR/AMPK</strong></p>
+<p>The mammalian target of <strong>rapamycin</strong> (mTOR), also referred to as the mechanistic target of rapamycin, and sometimes called FK506-binding protein 12-rapamycin-associated protein 1 (FRAP1), is a kinase that in humans is encoded by the MTOR gene. mTOR is a member of the phosphatidylinositol 3-kinase-related kinase family of protein kinases.</p>
+<p>The AMP-activated protein kinase <strong>AMPK</strong> acts as a cellular energy sensor. Once switched on by increases in cellular AMP : ATP ratios, it acts to restore energy homeostasis by switching on catabolic pathways while switching off cell growth and proliferation. AMPK has effect on mTOR, hence on the whole mTOR pathway.</p>
+<p>What things are regulated through mTOR pathway?</p>
+<ul class="simple">
+<li><p>Translation</p></li>
+<li><p>Metabolism</p></li>
+<li><p>Autophagy</p></li>
+<li><p>Senescence</p></li>
+</ul>
+<p>mTOR pathway, its connections to AMPK, and potential products of up, down regulation:</p>
+<p><a href="https://ibb.co/2PQHgj7"><img src="https://i.ibb.co/ctHVDNc/mtor-AMPK.jpg" alt="mtor-AMPK" border="0"></a></p>
+<p>What is the relevance to longevity?</p>
+<p>mTOR activity increases misfolded protein levels, downregulates autophagy and increases aging speed. Hence inhibition of mTOR seems to have implications on longevity.</p>
+<p>On the other hand, fasting activates AMPK which downregulates mTOR and with that induces autophagy. With that aging speed decreases. Metformin induces AMPK hence its one of the possible Geroprotectors (more on that in chemistry of ageing)</p>
+<p>What is the rapamycin? The most prominent mTOR inhibitor, capable of downregulating its activity hence achieving the desired outcomes in:</p>
+<ul class="simple">
+<li><p>Autophagy</p></li>
+<li><p>Cellular senescence</p></li>
+<li><p>etc.</p></li>
+</ul>
+<p><strong>IGF-1/PI3K/FOXO</strong></p>
+<p>There are 2 possibilities (left and right picture) that trigger the IGF-1 pathway. The first one (left) in times of favorable conditions activates the hypothalamus and triggers the release of growth hormone in the blood stream. Which again triggers the production of insulin like IGF-1 in the liver.</p>
+<p>Consequence of which is that on the one hand cell growth and reproduction is triggered.</p>
+<p>On the other hand it supresses FOXO dependent activation of proteostasis processes. Like the UPS pathway, autophagy and DNA repair. Which we know has consequences on longevity.</p>
+<p>In short, if we look at the left picture, the body grows and cell reproduces but the cost is accelarated aging.</p>
+<p>On the other hand, if we induce moderate stress as in the right picture, the body will block the production of insulin like IGF-1 in the liver which again in turn unblocks FOXO dependent mechanisms.</p>
+<p><a href="https://ibb.co/XsQ4574"><img src="https://i.ibb.co/7Wfzpnz/Screenshot-2022-03-08-151304.jpg" alt="Screenshot-2022-03-08-151304" border="0"></a></p>
+<p><strong>Klotho</strong></p>
+<p>Klotho is an enzyme that in humans is encoded by the KL gene. There are three subfamilies of klotho: α-klotho, β-klotho, and γ-klotho.</p>
+<p>Underexpression reduces mice lifespan.</p>
+<p>Overexpression increases mice lifespan.</p>
+<p>As saw in the picture, the inhibition or the activation activates the pathways that have lifespan reducing or lifespan expanding effects.</p>
+<p><a href="https://ibb.co/hMhn17r"><img src="https://i.ibb.co/PY3bzmJ/12345.jpg" alt="12345" border="0"></a></p>
+<p><strong>Sirtuins and NAD+</strong></p>
+<p>NAD+ is a cofactor, or a “helper molecule,” for a large class of deacetylases called <strong>sirtuins</strong> and <strong>PARPs</strong> (poly (ADP-ribose) polymerase)</p>
+<p><strong>Sirtuins</strong> enzymes require a non-protein chemical cofactor like NAD+ to function. The effects of sirtuins go well beyond metabolism. They play key roles in inflammation, transcription of genes, programmed cell death, and — of course — aging.</p>
+<p>Different sirtuins are localized differently within the cell and have varying targets.</p>
+<p>The sirtuins residing in the nucleus of the cell function as histone deacetylases and are vital for genome integrity and stability. Histones are proteins that DNA wraps around such that only the necessary bits are accessible and the rest is safely packed away. If there is a lack of NAD+, their function is reduced, the DNA loosens, and the histones are exposed to damaging external agents. Protecting genome integrity is essential for every cell to maintain its regular functions and characteristics.</p>
+<p><a href="https://ibb.co/s6mK7Zd"><img src="https://i.ibb.co/dLWPZRw/NDA.jpg" alt="NDA" border="0"></a></p>
+<p><strong>PARPs</strong></p>
+<p>Another important family of proteins that require NAD+ are the DNA repairing proteins called PARPs(poly (ADP-ribose) polymerase). DNA damage can accumulate in our cells as we age, and our cells try to do everything in their power to protect their DNA since it is the code book that regulates all life. More damage collected overtime would also require more repair, which is a problem in itself.
+PARPs similar to sirtuins can also play a role in protein post translational modifications via adding ADP-ribose units to certain proteins, a process called parylation. At the moment, much less is understood about how parylation impacts gene expression and protein function than acetylation/deacetylation, but it is expected that this part of the NAD+ field will grow rapidly in the coming years.</p>
+<p>Changing something just in the brain can be enough to make a mouse live longer. If the hypothalamus thinks it is too warm, for example, it can decrease the core body temperature of a mouse, resulting in a slightly longer lifespan. Changing the level of a variety of genes in a brain-specific way can also make a mouse live longer.We know that the hypothalamus makes something called growth hormone releasing hormone (GHRH), which is in charge of, well, releasing growth hormone. Growth hormone appears to be closely tied to lifespan, so the hypothalamus could be an important control point. One interesting question is how much you can affect the lifespan of a whole organism by just making changes to the brain.</p>
+</section>
+<section id="role-of-the-brain-in-longevity">
+<h3>Role of the brain in longevity<a class="headerlink" href="#role-of-the-brain-in-longevity" title="Permalink to this headline">¶</a></h3>
+<p>The nervous system plays a role too. Zhang et al. (2017) found that the hypothalamus’ neural stem cells (NSC) secretes small pieces of RNA in vesicles (exosomal miRNA), and their rate of release decreases with age.</p>
+<p>Note that for a while it was thought that there were no stem cells in the brain and thus no renewal of neurons. Now we know that in some select areas of the brain there are some, so far they have been found in the hypothalamus both in mice and humans (Pellegrino et al., 2018)</p>
+<p>Using a virus to remove a few of these NSCs, or implanting NSC into mice the lab showed a decrease in lifespan after removing these cells (In mice 250 days old), and conversely an increase when implanting them (In mice 600 days old), in this latter case extending maximum lifespan by around 13%.</p>
+<p>It has also been found that the genes coding for certain proteins (REST) related to neural activation are more expressed in brains of long lived individuals. Genetically engineered worms with lower activity of REST live shorter lives, and in mice increased REST seems to activate FOXO1, a transcription factor that has elsewhere been found to delay aging.</p>
+<p>Tricking mice into thinking that they are colder than they are also has positive effects (Conti et al., 2006): raising the temperature of the hypothalamus tricks it into thinking the whole body is warmer, and the hypothalamus tries to compensate by, seemingly, making cells more efficient and thus generating less heat. This increases median lifespan by 12-20% (male/female) in mice, but does not extend maximum lifespan.</p>
+</section>
+</section>
+<section id="chemistry-of-ageing">
+<h2>Chemistry of ageing<a class="headerlink" href="#chemistry-of-ageing" title="Permalink to this headline">¶</a></h2>
+<p>In experiments on
+chemical modulation of ageing, it is important to check that effects are robust against
+different common conditions and strains. Moreover, it needs to be established that the
+effects truly arise from the administered drugs. For example, the effect should not be
+due to an indirect dietary restriction effect because animals eat less food containing
+the drug which might be perceived as distasteful or toxic.</p>
+<p>I will list drugs that currently have demonstrated prolonging longevity effects in mammals. Full list with over 800 compounds can be found in afromentioned DrugAge database. Additionally the National Institute for Aging has the NIA Interventions Testing Program, or ITP (Nadon et al., 2017) where they test the same thing in three labs with larger sample sizes and rigid experimental protocols. Their stage one uses around 100 mice per group, while their more rigorous second stage tests use up to 500 mice across all the labs per group. This testing has revealed as of 2017 six compounds that extend life in mice. Some of them only worked on males, others on both male and female mice, and in those the effect by gender were different.</p>
+<p>One should be careful about the <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7541369/">potential side effects</a> and only optimizing for maximum lifespan does not seem smart.</p>
+<p>Studies with longevity effects limited to mammals:</p>
+<ul class="simple">
+<li><p>Metformin [<em>As noted in pathways of aging chapter.</em>]</p></li>
+<li><p>Rapamycin [<em>As noted in pathways of aging chapter.</em>]</p></li>
+<li><p>Resveratrol [Islam MS, et al. <em>Effect of the Resveratrol Rice DJ526 on Longevity.</em>]</p></li>
+<li><p><em>Acarbose</em> [David E Harrison, <a class="reference external" href="http://et.al">et.al</a>. <em>Acarbose improves health and lifespan in aging HET3 mice</em>]</p></li>
+<li><p><em>Vitamin D</em> [Karla A. Mark, <a class="reference external" href="http://et.al">et.al</a>. <em>Vitamin D Promotes Protein Homeostasis and Longevity via the Stress Response Pathway Genes SKN-1, IRE-1, and XBP-1</em>]</p></li>
+<li><p><em>Senolytics</em>- senescent cells accumulate and this is negative due to the SASP, let’s just get rid of them.</p></li>
+</ul>
+<p><img alt="" src="https://nintil.com/images/2020-01-05-longevity/image-20200116074410927.png" /></p>
+<ul class="simple">
+<li><p><em>Sirtuin activating compounds (STACs)</em> - general category, under which resveratrol fall under, they are usually paired with NAD boosters (Most commonly, nicotinamide riboside (NR) less commonly nicotinamide mononucleotide (NMN)), to get extra NAD+ to fuel the increase in sirtuin activation.</p></li>
+</ul>
+<section id="parabiosis">
+<h3>Parabiosis<a class="headerlink" href="#parabiosis" title="Permalink to this headline">¶</a></h3>
+<p>![](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIUFRYSEhIYFRYZHBoUGBocGB0cHBkWFx4ZHB4cHBocLi4lJCEtHxgZKDgmKzQxNjU3HiU7RjszPy40NTUBDAwMEA8QHBISHjEhISs6QD8xNDE/ND80MTU0NDQ6NDExMTQxNDc0NDExNDQ0NDE/MT80NDQ0NDQxNTFAMTFAP//AABEIAKgBLAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUBAwYCB//EAD4QAAICAQMBBgQEAwUHBQAAAAECAAMRBBIhMQUGEyJBUTJhcZEUcoGhFaKxM0JSksEWI2KC0eHwQ1OTstL/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAHBEBAQACAgMAAAAAAAAAAAAAAAECESExEkFR/9oADAMBAAIRAxEAPwD7NERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEr+1u069Mgss3EMyVqFUszPYwVVAHqSQJYSn7xdjjV1pUzABbarmyM7hU6sV6jqARn5wPfZ/bmnuVir7SrmplcbGV1wSpVsHOGU/qJNOoQEguoIySCRwBgnP03L9x7zldN3NNb1tXaoStrii7GBCXtU5VmVhvIas8tnIIznHLUd0rXax31CGy1barD4ZANdyadCVG7hwNMp9vMeOkDqX1dajLOoHXJYAYzjr9Z6XUIejKfoQfTP9Dn6TltT3P3FitoA8RbKxtYbEG9mTKsD5rLXORjjaPSYv7nszOy6k1mzf4gVSc70Wvcu4nDBN4zznK5ztgdN+Oq6eKmSMgbl6YyD16Y5ntdShJAdSVIVhuGQx6Aj0J9pztXdTapQWKQK3oQ7ACqNYHUeXAwqjYAAOAJofubu2q9q7E4XapV2U2rcWd88uCgwwxglj6wL7tLtiqhUZ9zeI4qQIpcs5DHAA+SN9pnsztam9PFrbA3MhDAqysrshVlPIO5SPniUmt7qNZpdPpmtR2qt8dmevctpzYSGQEdfEzwfSe+yu6S0+AWs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EBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQP/2Q==)</p>
+<p>This (Eggel and Wyss-Coray, 2014) is probably one of the most well known, due to the peculiarities of the process involved: It consists of transfusing blood or plasma from younger individuals to older ones, this in particular is known as heterochronic parabiosis (Ludwig &amp; Elashoff, 1972), to distinguish it from cases where the animals are the same age. In early experiments, this was done by fusing the circulatory systems of two mice of different ages.</p>
+<p>Later, in 2005 and then 2011, other experiments with a similar design showed that the older mice of the pair showed improved tissue regeneration, heart function and cognitive performance, while the reverse was observed in the younger mice. The reason this was happening is that there are proteins or other elements in the bloodstream of old mice that are harmful in higher concentrations like CCL11 while others that are beneficial are reduced in amount (Conese et al., 2017)</p>
+<p>Of course, we all wonder if this work in humans. The TV series Silicon Valley made popular the concept of blood boys, which ended up being memed into reality by real-life startup Ambrosia, who provided plasma transfusions from young donors. They claimed it had benefits for their patients after a trial, but they never released any data, and the after the FDA issued a warning saying that the treatment is not effective, they temporarily closed down, but they have since resumed business.</p>
+<p>There is no evidence indeed that this works in humans, but there are ongoing trials to see if it does work. The one I could find is the PLASMA (Plasma for Alzheimer Symptom Amelioration) study at Stanford. So far they have merely done an RCT in a very small sample (9 people per group) to prove that the procedure is safe (Sha et al., 2019). This all sounds somewhat disappointing, especially given that the study was completed in 2017 and back then it was reported that in that same data there was no improvement in alzheimer. This work seems to have done in part by Alkahest, a company founded by Wyss-Coray.</p>
+<p>More recently, Horvath et al. (2020) showed that more extensive replacement of blood plasma (Rather than joining mice, infusing them with a proprietary plasma formula every few days) leads to improvements across the board with the exception of the brain. The authors speculate that this may be because</p>
+<blockquote>
+<div><p>This, of course, raises a related and equally interesting question, which is why does plasma fraction treatment not reduce brain epigenetic age by the same magnitude as it does the other organs? We can only begin to address this question after having first understood what epigenetic aging entails. As it stands, our knowledge in this area remains limited, but it is nevertheless clear that: (a) epigenetic aging is distinct from the process of cellular senescence and telomere attrition 41, (b) several types of tissue stem cells are epigenetically younger than non-stem cells of the same tissue 42,43, (c) a considerable number of age-related methylation sites, including some clock CpGs, are proximal to genes whose proteins are involved in the process of development 44, (d) epigenetic clocks are associated with developmental timing 22,45, and (e) relate to an epigenomic maintenance system 20,46. Collectively, these features indicate that epigenetic aging is intimately associated with the process of development and homeostatic maintenance of the body post-maturity. While most organs of the body turn-over during the lifetime of the host, albeit at different rates, the brain appears at best to do this at a very much slower rate</p>
+</div></blockquote>
+<p>We don’t know what their proprietary formula is, but perhaps it’s just (or mostly) fresh albumin. Most circulating proteins are albumin, so getting that fixed is a large leverage point. There have been preliminary trials in humans showing cognitive benefits of infusion with fresh albumin (Loeffler, 2020) and work relating the oxidization of albumin to aging (Luna et al., 2016) exists.</p>
+<p>On the other hand, the Conboys have also two recent papers (Mehdipour, 2020; Mendipour, 2020) where they merely dilute the plasma, replacing plasma with fresh albumin. The interpretation of the paper is that diluting “junk” that’s present in blood is beneficial and they try to justify that it is not the additional albumin they are adding, but they don’t go as far as claiming that the albumin has no effect (“Ectopically added albumin does not seem to be the sole determinant of such rejuvenation”).</p>
+<p>Both the SENS foundation and Eli Dourado take these results to imply that the benefits from parabiosis / plasma exchange are not due to anything beneficial being present in young blood, but rather to the accumulation of “junk” in old blood. SENS does point to a bunch of specific cases where putative “young blood factors” turned out to be not so, ultimately GDF11 when tested on on lifespan has no effects. But they don’t point to a study where they tried to inject young blood to old mice or other models; after all it is perfectly possible that GDF11 is not effective yet something else is. The only such study I could find was Shytikov et al. (2014) where they injected young blood plasma to old mice, finding no lifespan effects. The bulk of the evidence then points to dilution being a robust effect whereas we have not identified any specific factors in young blood that can induce rejuvenation. What then, is in Horvath’s mysterious proprietary Elixir? Whatever is it, it doesn’t have to be -nor they claim it to be- based on or inspired by, young blood factors. They have just shown that there are injections one can administer that cause systemic rejuvenation effects.</p>
+</section>
+<section id="drug-combinations">
+<h3>Drug combinations<a class="headerlink" href="#drug-combinations" title="Permalink to this headline">¶</a></h3>
+<p>After reading the above, you probably thought: Hey, shouldn’t we just try everything at the same time and see what happens? Indeed this seems to work.</p>
+<p>We said that metformin doesn’t seem to do much and that rapamycin does. But what if you combine the both? Well, rapamycin leads to 10-13% longer median lifespans in mice at 14 ppm. Combined with metformin (1000 ppm), that goes up to 23%, even when metformin on its own had no effect (Strong et al., 2016). It reminds to be seen, however, what happens with the high dosages of rapamycin than on its own are already able to achieve similar effects.</p>
+<p>In flies, a combination of rapamycin, trametinib, and lithium extended their life by 48%, which is more than the sum of the effects of each of them(Castillon-Quan et al., 2019).</p>
+<p>In worms we already knew that certain mutations along the mTOR or IIS pathways can make worms live substantially longer. But what if we create a super-worm with many of them? Yes, they live longer (500% more) than what one would expect from the sum of the effects alone, report Lan et al. (2019), though again this same combination is unlikely to have as large effects in longer-lived species.</p>
+<p>This doesn´t mean that every combination is good. A recent study (Palliyaguru et al., 2020) showed that combining a STAC with metformin reduces longevity even when, in that study, metformin on its own has no effect and the STAC increases median (but not maximum) lifespan. More work is needed to determine exactly when drugs conferring putative longevity benefits will lead to synergies or the opposite.</p>
+</section>
+<section id="drug-repurposing">
+<h3>Drug repurposing<a class="headerlink" href="#drug-repurposing" title="Permalink to this headline">¶</a></h3>
+<p>One of the key selling points to repurposing drugs for aging is that the barier of (FDA) aproval is much lover. Since there drugs have already passed these tests. For the theory and the computational aspect of drug repurposing please refer <a class="reference external" href="https://www.nature.com/articles/nrd.2018.168">here</a>.</p>
+</section>
+<section id="partial-reprogramming">
+<h3>Partial reprogramming<a class="headerlink" href="#partial-reprogramming" title="Permalink to this headline">¶</a></h3>
+<p>![](data:image/png;base64,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)</p>
+<p>Idea is that with four transcription factors (Oct4, Sox2, Klf4, C-Myc), aka OSKM factors or Yamanaka factors, that can transform any cells back into stem cells. With that essentiall rejuvenating the cell, tissue and the organ. So the epigenome gets damaged over time. But we also know that somehow it gets more or less reset (Not perfectly, this is why transgenerational epigenetic inheritance is a thing) when the zygote forms (Rando &amp; Chang, 2012 so there should be a way to take a cell and reset it. Back in 2006, Shinya Yamanaka showed that one could take a random cell, make it express four genes (The initials of which are OSKM, or elsewhere known as Yamanaka factors) and make that aged old cell into a fresh and young stem cell.</p>
+<p>Now, if you just did that to an organism it would become a blob of stem cells, and indeed something like this is what happens if one happily forces expression of OSKM in mice, one gets cancer and teratomas. But what if instead one goes only halfway? Using genetically engineered mice that express OSKM only when dosed with the antibiotic doxycycline, and having the mice on and off that drug, Ocampo et al. (2016a) rejuvenated and extended the lifespan (maximum by 20% and median by 33%) of genetically engineered mice that show premature aging. Seeking a less carcinogenic combination of factors, the Sinclair lab (Yuancheng et al., 2019) tried just OSK in the eye of mice to see (no pun intended, I promise) if they could regenerate the optic nerve after an injury, and restore vision in mice. And they did it.</p>
+<p>There are many ways to reprogram cells: Some are “integrating” (They cause permanent edits in the genome) like various kinds of virus, while others are temporary, like plasmids, adenoviruses (Unlike other virus, these just inject their DNA into the cell to replicate, rather than changing the host’s DNA), proteins or small molecules. The best one in terms of efficiency and not being permanent is the Sendai virus; which however is expensive and hard to produce (Ocampo et al., 2016b).</p>
+<p>Oddly, senescent cell’s SASP make it easier for neighbouring cells to be reprogrammed, so perhaps reprogramming followed by senolysis would have synergistic effects (Ofenbauer &amp; Tursun, 2019).</p>
+<p>For a great detailed overview have a look <a class="reference external" href="https://www.adanguyenx.com/blog/partial-reprogramming">here</a>. Or a recent paper <a class="reference external" href="https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(22)00025-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0167779922000257%3Fshowall%3Dtrue">here</a>. Tackling this problem with machine learning is already underway and <a class="reference external" href="https://www.shiftbioscience.com/">companies</a> are trying to find novel factors and their combinations that could make a difference.</p>
+</section>
+</section>
+<section id="environmental-effects-on-ageing">
+<h2>Environmental effects on ageing<a class="headerlink" href="#environmental-effects-on-ageing" title="Permalink to this headline">¶</a></h2>
+<p>![](data:image/jpeg;base64,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)</p>
+<p>The idea behind investigating these and other
+stresses like irradiation, low or high oxygen environments or other chemical stresses, is
+that low doses of otherwise harmful conditions might trigger adaptive responses which
+improve the functional ability, a concept called hormesis. And vice-versa.</p>
+<ul class="simple">
+<li><p>Ambient temperature [Conti, B. 2008 Considerations on temperature, longevity and aging.]</p></li>
+<li><p>Cold stress [Le Bourg, E., Massou, I. &amp; Gobert, V. 2009 Cold stress increases resistance to fungal
+infection throughout life in Drosophila melanogaster.]</p></li>
+<li><p>Microgravity in space-flight and hypergravity
+in centrifugal systems [Le Bourg, E. 1999 A review of the effects of microgravity and of hypergravity on aging
+and longevity.]</p></li>
+<li><p>Sleep [Cirelli, C. 2012 Brain plasticity, sleep and aging.]</p></li>
+<li><p>Dietary restriction [Piper, M. D. W., Partridge, L., Raubenheimer, D. &amp; Simpson, S. J. 2011 Dietary
+restriction and aging: a unifying perspective.]</p></li>
+</ul>
+<p>We have classified interventions broadly based on the 3 classes. Another prelevant approach is to think about the hallmarks of aging. These are general, cell based observations, that overlap with the previously defined classification.</p>
+</section>
+<section id="alternative-aging-interventions">
+<h2>Alternative aging interventions<a class="headerlink" href="#alternative-aging-interventions" title="Permalink to this headline">¶</a></h2>
+<p>Going through old, not necessarily well-known experiments to see if there are opportunities is something I don’t believe is being done that often, and is probably an unusually good place to apply a little bit of time and attention for big returns.</p>
+<p>That said, let’s look at some specific examples!  These are all results from prior to the year 2000, that are experimental interventions affecting vertebrate lifespan or aging, and which aren’t currently the focus of a research program that I’m aware of.</p>
+<p><strong>Lowering Body Temperature: 71% Life Extension in Fish</strong></p>
+<p>Unusually long-lived vertebrates (tortoises, sharks, rockfish, etc, which can survive for centuries, or naked mole rats, which are extremely long-lived for their size) are frequently cold-blooded.  Warm-blooded animals which are long-lived (in absolute terms, like whales, or relative to their size, like bats, hummingbirds, and squirrels) often undergo temporary reductions in body temperature, during diving or hibernation.  Moreover, interventions like dietary restriction which extend lifespan have the effect of reducing body temperature.  So can reducing body temperature directly extend life?</p>
+<p>For a cold-blooded example, transferring fish from 20-degree water to 15-degree water extended lifespan by 71%, in a 1972 study. Liu, R. K., and R. L. Walford. “The effect of lowered body temperature on lifespan and immune and non-immune processes.” Gerontology 18.5-6 (1972): 363-388.</p>
+<p>To reduce the body temperature of a warm-blooded animal, it’s not enough to reduce ambient temperature, since warm-blooded animals generate heat to compensate. In fact, reducing the ambient temperature actually shortens mouse lifespan. However, there are tricks to lower body temperature in a warm-blooded animal.</p>
+<p>Mice genetically modified to overexpress the uncoupling protein, UCP2, in the hypothalamus have lower body temperature than wild-type Conti, Bruno, et al. “Transgenic mice with a reduced core body temperature have an increased life span.” Science 314.5800 (2006): 825-82, and they live longer than their wild-type counterparts (20% increase in female median lifespan, 12% in male.)</p>
+<p>You can also induce hypothermia by stimulating the heat-detecting cells in the hypothalamus, either by injecting capsaicin Jancsó-Gábor, Aurelia, J. Szolcsanyi, and N. Jancso. “Stimulation and desensitization of the hypothalamic heat‐sensitive structures by capsaicin in rats.” The Journal of physiology 208.2 (1970): 449-459., heating the hypothalamus directly with a thermode Hammel, H. T., J. D. Hardy, and MiM Fusco. “Thermoregulatory responses to hypothalamic cooling in unanesthetized dogs.” American Journal of Physiology-Legacy Content 198.3 (1960): 481-486., or stimulating the heat-sensing neurons optogenetically Zhao, Zheng-Dong, et al. “A hypothalamic circuit that controls body temperature.” Proceedings of the National Academy of Sciences 114.8 (2017): 2042-2047.</p>
+<p>The natural next experiments to do are a.) see if any of these other methods of inducing hypothermia affect lifespan and diseases of aging in mice or other mammals; b.) do longitudinal transcriptomics or other broad assays to see what reduced body temperature is doing and whether its effects can be simulated chemically or genetically.</p>
+<p><strong>Altered Photoperiod Cycle Length: Short “Years” Shorten Lifespan 30% in Lemurs</strong></p>
+<p>Days get longer in summer and shorter in winter; by lengthening or shortening the cycle of alteration in photoperiod length (by changing artificial lighting) you can give an animal a shorter or longer subjective “year”. This turns out to affect lifespan!</p>
+<p>The gray mouse lemur is a prosimian primate, native to Madagascar, that is long-lived for its size. During the long-day summer, gray mouse lemurs breed and are more active; during the short-day winter, they gain weight, become lethargic, and don’t copulate. If you alter the photoperiod cycle artificially, you can alter the timing of these behavioral and morphological changes accordingly – and if you reduce the “year length” by a third, from 12 months to 8 months, lifespan also shortens by 30% and the onset of white fur happens 30% earlier. Perret, Martine. “Change in Photoperiodic Cycle Affects Life Span in a Prosimian Primate (Microcebus murinus.” Journal of biological rhythms 12.2 (1997): 136-145. . In other words, lemurs live 9-10 “subjective years”, whether those are 8-month years or 12-month years.</p>
+<p>The obvious follow-up experiment is to go the other direction – do lemurs (or other animals) live longer if you subject them to 16-month subjective years? And to take some tissue and blood samples and try to identify how this effect works – do we see pathological changes, transcriptional changes, hormonal changes, metabolic changes?</p>
+<p><strong>Constant Light Exposure: 25% Life Extension in Hamsters</strong></p>
+<p>A Syrian hamster model of congenital heart disease showed delayed onset of heart failure and 25% life extension if they were kept in continuously lit conditions. Tapp, Walter, and Benjamin Natelson. “Life extension in heart disease: an animal model.” The Lancet 327.8475 (1986): 238-24 The obvious corollary studies are to take heart tissue samples and blood samples and look for altered gene expression or metabolic parameters that might explain the effect of light exposure on preventing heart failure. It also might be possible to experiment directly with continuous light exposure on humans, since it’s probably not dangerous.</p>
+<p><strong>Pineal-Thymus Graft: 24% Life Extension in Aged Mice</strong></p>
+<p>Implanting the pineal gland of a young mouse into the thymus of an old (16-22 month) mouse extends lifespan 19% in C57BL6 mice, 20% in Balb/c mice, and 35% in hybrid mice, for an average of 24% overall. Pierpaoli, Walter, et al. “The pineal control of aging: the effects of melatonin and pineal grafting on the survival of older mice.” Annals of the New York Academy of Sciences 621.1 (1991): 291-313. This is consonant with a more extensive literature about the pineal gland or the main hormone (melatonin) it secretes having a life-extending effect through preventing the dysregulation of the circadian rhythm which occurs with age. The obvious follow-up study to do is a replication of the same implantation experiment, along with longitudinal expression data, to find out how this works and work towards identifying how a similar effect could be replicated by a less invasive intervention.</p>
+<p><strong>Splenectomy: 19% Life Extension in Aged Mice</strong></p>
+<p>In a 1969 experiment, adding spleen cells to mice of the same age as the cell donors shortened lifespan; adding spleen cells from younger mice (14 week) to older mice (76 week) extended median lifespan from 105 weeks to 128 weeks, a 13% lifespan effect; and removing the spleens of mice altogether at age 97 weeks increased median remaining lifespan from 118 to 158 weeks, a 19% lifespan effect.</p>
+<p>Clearly, the aged mouse spleen contains some factor that accelerates age-related decline. The obvious question is to find out what this is, through expression or proteomics studies on young, aged, and splenectomized mice, and see if there’s a way to target the culprit pharmacologically.</p>
+<p><strong>Induced Hypothyroidism: 17% Life Extension in Rats</strong></p>
+<p>Exposing newborn rats to thyroid hormone permanently reduces their bodyweight and thyroxine levels; it’s a way of artificially inducing hypothyroidism. Ooka, Hiroshi, Saori Fujita, and Emiko Yoshimoto. “Pituitary-thyroid activity and longevity in neonatally thyroxine-treated rats.” Mechanisms of ageing and development 22.2 (1983): 113-12 It also has the effect of dramatically elevating their prolactin levels; as prolactin is stimulated by TSH release from the hypothalamus, clearly neonatal T4 exposure doesn’t prevent TSH release in the brain, but rather impairs the thyroid’s ability to respond to it.  This induced hypothyroidism also extends median lifespan by 17% and maximal lifespan by 6%. Obviously, inducing hypothyroidism isn’t a viable intervention for humans, but looking at changes in hormone levels and gene regulation in induced hypothyroidism might give clues to what downstream mechanisms are responsible for the lifespan increase and whether there’s a less-side-effect-heavy way to induce it.</p>
+<p><strong>Castration: 17% Life Extension in Rats</strong></p>
+<p>Removing the testes of male Wistar rats has been found to extend lifespan 17% relative to unbred intact males; removing the ovaries extends lifespan 29% relative to unbred females. Asdell, S. A., and S. R. Joshi. “Reproduction and longevity in the hamster and rat.” Biology of reproduction 14.4 (1976): 478-480. This isn’t too surprising given that caloric restriction (a reliable life-extending intervention in rodents under typical lab conditions) has antigonadal effects, and that extremely dramatic lifespan effects can come from removing the germ cells in C. elegans. Hsin, Honor, and Cynthia Kenyon. “Signals from the reproductive system regulate the lifespan of C. elegans.” Nature 399.6734 (1999): 362. There’s also some correlational evidence – for instance, castrated male cats arriving at veterinary hospitals lived 67% longer than intact males.Hamilton, James B. “Relationship of castration, spaying, and sex to survival and duration of life in domestic cats.” Reproduction and aging. New York, NY: MSS Information Corporation (1974): 96-115.</p>
+<p>Obviously, castration isn’t a practical intervention for most humans, but it’s possible that there’s some downstream effect that doesn’t alter fertility or observable sex characteristics and preserves some of the anti-aging effect; this is a good opportunity for looking at longitudinal expression changes in castrated vs. intact animals and trying to identify the mechanism of lifespan extension.</p>
+<p><strong>Lateral Hypothalamic Stimulation: 5% Life Extension in Aged Rats</strong></p>
+<p>Stimulating the lateral hypothalamus is pleasurable, and animals given the opportunity to self-stimulate will do so; this is what’s known as wireheading.  Interestingly enough, there are interactions with aging here as well.  Young adult rats have more neurons and more electrical activity in the lateral hypothalamic area (LHA) than old rats; young rats also exhibit more self-stimulatory behavior than old rats when given access to a button that turns on the electrode. Moreover, in old rats, chronic stimulation in the LHA extended lifespan from 1075 days to 1125 days (5% of total median lifespan, 8% of total maximum lifespan, 35% of residual lifespan); stimulation reduced body mass as well. Frolkis, V. V., et al. “The lateral hypothalamic area: Peculiarities of aging and the effect of chronic electrical stimulation on the lifespan in rats.” Neurophysiology 32.4 (2000): 276-282. Is this just a dietary restriction effect, or is it something else? The natural thing to do is to try the experiment again, this time compared against controls given the exact same amount of food to eat; and also, to take brain samples after death and possibly other blood samples during lifespan to try to identify metabolic or regulatory changes caused by the stimulation.</p>
+<p><strong>Blindness: Increases Survival in Rats</strong></p>
+<p>Blindness affects the circadian rhythm; it effectively gives the same hormonal signals as perpetual darkness. Rats blinded at 25 days had increased lifespan relative to controls; at 748 days, when the experiment concluded, the blind rats had a 95% survival rate while the control rats had a 50% survival rate. The natural follow-up is to do a full lifespan study so we can get an actual measurement of the effect on median lifespan, as well as measurements of other biomarkers so we can identify a mechanism and possibly a way to replicate the anti-aging effect without actually inducing blindness.</p>
+<p><strong>Fetal Hypothalmic Graft: Restores Fertility and Circadian Rhythm in Rats and Hamsters</strong></p>
+<p>In keeping with the pattern of neuroendocrine effects on aging, it turns out that transplanting the suprachiasmatic nucleus (the part of the hypothalamus responsible for entraining the circadian rhythm in response to day length) from fetal animals into the brains of aged animals can restore the periodicity of the circadian rhythm and restore diminished fertility. With age, circadian rhythms become less regular; animals wake more during the periods when they should be sleeping, and/or are more lethargic during the periods when they should be awake.  Fetal SCN grafts reverse this phenomenon in both hamsters Viswanathan, N., and F. C. Davis. “Suprachiasmatic nucleus grafts restore circadian function in aged hamsters.” Brain research 686.1 (1995): 10-16. and rats. Li, Hua, and Evelyn Satinoff. “Fetal tissue containing the suprachiasmatic nucleus restores multiple circadian rhythms in old rats.” American Journal of Physiology-Regulatory, Integrative and Comparative Physiology 275.6 (1998): R1735-R1744. Moreover, 7 of 10 aged rats given fetal anterior hypothalamus transplants regained fertility and fathered a total of 106 pups Huang, H. H., J. Q. Kissane, and E. J. Hawrylewicz. “Restoration of sexual function and fertility by fetal hypothalamic transplant in impotent aged male rats.” Neurobiology of aging 8.5 (1987): 465-472., while medial basal hypothalamus transplants from rat fetuses into aged female rats reversed hypogonadism. MATSUMOTO, Akira, et al. “Recovery of declined ovarian function in aged female rats by transplantation of newborn hypothalamic tissue.” Proceedings of the Japan Academy, Series B 60.4 (1984): 73-76</p>
+<p>The hypothalamus regulates a variety of hormonal signals, which become dysregulated with age; it seems that some of these effects can be reversed by transplanting a younger hypothalamus. The most natural question to ask is, first, does this extend life? Second, can we identify on the genetic or molecular level what the younger hypothalamus tissue is doing that improves aging-related phenotypes? If so, there might be a non-invasive way to replicate the effect.</p>
+</section>
+<section id="model-organisms-for-research-in-ageing-biology">
+<h2>Model organisms for research in ageing biology<a class="headerlink" href="#model-organisms-for-research-in-ageing-biology" title="Permalink to this headline">¶</a></h2>
+<p>What should be the criteria for choosing a animal model in longevity research and how do we make sure that results on animal models transfer to humans?</p>
+<ul class="simple">
+<li><p>lifespan length?</p></li>
+<li><p>genetic similiarity?</p></li>
+<li><p>cost of keeping?</p></li>
+<li><p>etc</p></li>
+</ul>
+<p>Another important question is that aids in this decision is:</p>
+<blockquote>
+<div><p><em>How can you efficiently test lots of drugs for their effect on lifespan?</em></p>
+</div></blockquote>
+<blockquote>
+<div><p>You need a short-lived model organism and a low cost per experiment enabled by automation.</p>
+</div></blockquote>
+<p><a href="https://ibb.co/NNhRNfF"><img src="https://i.ibb.co/94XP4Bp/animal-model.jpg" alt="animal-model" border="0"></a></p>
+<p>The yeast Saccharomyces cerevisiae, the worm Caenorhabditis elegans, the fruit fly
+Drosophila melanogaster, the mouse Mus musculus. The common maximal lifespan of
+these model organisms under laboratory conditions follow roughly a rule of 3 (3 days,
+3 weeks, 3 month, 3 years). Usually only findings supported by more than one invertebrate model are evaluated in mice, with the ultimate goal of gaining knowledge about human ageing.</p>
+<blockquote>
+<div><p><em>But are mices or worms the optimal model?</em></p>
+</div></blockquote>
+<p>They both have their tradeoff. Most drugs that “work” in mouse experiments don’t go on to succeed in human clinical trials. <a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/29394327/">Reference</a>, and all of these are drugs that have been found efficacious in animals, so successful animal studies are very far from a guarantee by themselves.</p>
+<p>Check <a class="reference external" href="https://srconstantin.github.io/2018/11/26/why-drugs-that-work-in-mice-don%27t-work-in-humans.html">here</a> for a detailed exposition on faulty assumptions beeing made when using mice as a model.</p>
+<blockquote>
+<div><p><em>What abour worms, what are the odds of success in mammals if the drug works on worms?</em></p>
+</div></blockquote>
+<p>Of course, extending life in a worm is no guarantee of extending life in other organisms. How likely is that? We have no exact measurement, but we do have the DrugAge database of compounds that have been found to extend life in various species. 7% of the drugs listed as extending life in nematodes have also been found to extend life in mammals. This is, in fact, an underestimate, since the majority of drugs tested in worms were likely never tested on mammals (given the high cost and relative rarity of mammalian lifespan experiments.)</p>
+<p>Combining these two facts, we can get a rough estimate of 0.35% probability that a compound with mammalian bioactivity, tested on nematodes, will extend life in mammals. In other words, screening 6000 new drugs in worms will yield, in expectation, 300 hits for life extension, of which we expect 21 to also extend life in mice.</p>
+<p>Of course, in real life, we can’t do 300 separate mouse lifespan studies. What we can do is take those 300 primary hits in worms, and narrow them down to a more tractable set by doing more invertebrate studies – selecting for drugs with consistent effects across different worm strains and experimental conditions as in the CITP, selecting for drugs that also modify healthspan and other aging-related phenotypes, and running validation assays to select for drugs with biologically plausible mechanisms of action (such as altering transcription or activation of known aging-related pathways, or clearing senescent cells.) Applying these more stringent filters, we could get a “top-15” list of candidate drugs worth testing in mammals. And even if (to be quite conservative) these secondary filters don’t allow us to improve _at all _on the 7% transferability rate at baseline, we’ll _still _expect that on average at least one of these drugs will extend life in mammals.</p>
+<p>Research on the mechanisms that drive aging and potential therapies to slow or reverse it is usually done on a series of animal models: yeast, flies, worms, and mice. As mentioned above, the pathways involved in aging are more or less preserved across species, but there are substantial differences that one has to be aware of that can cause a treatment not to work in humans.</p>
+<p>Take telomerase. It’s not active in most human cells, but in mice it is (Shay &amp; Wright, 2019). Or cell replication. Cells replicate in humans (Well not always, heart cells do not), and in any given point we have different numbers of cells. But not in the worm C. Elegans, which has around 1000 cells and that’s it. Mice tend to be overweight, which can confound the effects of some interventions like calorie restriction. In general, non-vertebrates do not present senescence, stem cell exhaustion, immunosenescence, or inflammation. (Singh et al. 2019).</p>
+<p>There is a paper, Liao et al. (2010) that claims that CR has negative effects in some strains. However upon closer examination this doesn’t seem robust: There were 5 mice per strain, and some of the more extreme negative results recorded involved just 2 or 3 mice (because they couldn’t get enough). In contrast, I couldn’t find any papers with a larger sample size showing negative effects of CR in mice in lifespan. To be sure some papers show neutral effects (no increase in lifespan). There are some cases, like in DBA mice where CR of 40% started early in life increases early mortality. The net effects seem neutral (eary mortality+lifespan increase for the individuals that survive). 40% CR is quite extreme; people that do chronic CR rarely go this far. More recently, Unnikrishnan et al. (2021) repeated Liao’s analysis with a larger sample (though, perhaps, not large enough!) with the expected results: Liao had found a worst case scenario of the 115-RI mouse line where lifespan went down by 70%, Unnikrishnan et al.’s sample increased their lifespan instead as the model would predict, though this effect was markedly stronger in females than males. Interactions between genetic background and the effects of CR are real, but the reasons to be pessimistic are not as strong as one may infer from Liao’s paper.</p>
+<p><img alt="" src="https://nintil.com/images/2020-01-05-longevity/Untitled-9008821.png" /></p>
+<blockquote>
+<div><p><em>Is there any other promising animal model alternatives?</em></p>
+</div></blockquote>
+<p><a href="https://ibb.co/HxgbgJP"><img src="https://i.ibb.co/61sTsdt/daphnia.jpg" alt="daphnia" border="0"></a></p>
+<p>Derived from the table and taken from <a class="reference external" href="https://sites.google.com/view/smarttanks">here</a>, question is: “What model is the most suitable for longevity research”</p>
+<ul class="simple">
+<li><p>Save time: Conveniently, Daphnia live on average only 30 days. Moreover, for some interventions there is a chance to reduce the duration of the experiment to a couple of hours: apply the drug at a high dosage and immediately observe the behavioral change. But in order to judge the accuracy of accelerated approach, it is necessary to conduct a number of preliminary studies.</p></li>
+<li><p>Convenient features: Sensitive to drugs. Transparent. Visible heart, macrophages. Clonal. Large progeny.
+Complete genome: A small 250Mb genome is sequenced, wel annotated and CRISPR-editable.</p></li>
+<li><p>Aging model: First, daphnia also age (the probability of their death increases with age). Secondly, at least one mechanism associated with aging in daphnia overlaps with other model organisms and even, probably, with humans: a moderate reduction in calories prolongs their life.</p></li>
+<li><p>Convenient to dose the drug: Studies of drugs in worms use unphysiologically high doses to overcome natural xenobiotic pathways. Flies mainly feed as larva, it is impossible to control the amount of drugs that gets into them. In contrast, Daphnia is sensitive to small concentrations.</p></li>
+<li><p>Save money: A one liter aquarium can comfortably accommodate 100 daphnia. For comparison, we would place only one fish in the same volume. In addition, very low concentrations of the test substance are sufficient for Daphnia (important for testing expensive drugs, which are typically the new drugs). A bunch of cheap Daphnia in a small volume of drug solution makes the experimentation very economical.</p></li>
+<li><p>Convenient to evaluate the results: It is enough for us to observe the Daphnia, i.e., their movements (no need to open them up or make molecular measurements). This enables automation and scaling up, using video cameras and image analysis of videos from many tanks in the hands of different teams.</p></li>
+<li><p>… also: It’s a new idea, a new model organism for aging research. This has not been tried yet. Setting up an organism that is perfectly suited for the rapid testing of many drugs and their combinations is one of the primary aims in prolonging human life.</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Noah Weber<br/>
+    
+        &copy; Copyright 2022.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
