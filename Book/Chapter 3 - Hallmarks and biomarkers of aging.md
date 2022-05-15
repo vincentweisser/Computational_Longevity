@@ -1,4 +1,4 @@
-## Hallmarks of aging
+# Chapter 3 - Hallmarks and biomarkers of aging
 
 ![](https://nintil.com/images/2020-01-05-longevity/image-20200117094655213.png)
  [Seminal paper](https://pubmed.ncbi.nlm.nih.gov/23746838/) defined the ten main “causes” of our decline, the ten horsemen of an internal apocalypse. The question I wanted to answer is:
