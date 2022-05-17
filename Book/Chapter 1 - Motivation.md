@@ -1,7 +1,6 @@
 
 ***
 >*Important notes*:
-* This is not a scientific work, it is just an aggregation and regurgitation of different sources of information. Meaning output of this book is mainly due to efforts of others as indicated in references.
 * This is a rolling set of writings, meaning information will be added on a regular basis. There is no end.
 * Any corrections and/or additions are encouraged.
 ***
@@ -22,7 +21,7 @@ Here I set out to do following things:
 
 Biology is complex. So are computers. Can we find a mapping between software related terms and the biology related terms? 
 
-Like this:
+Example of what this analogy comparison would look like is this:
 
  Biology | Software | 
 ------- | -------- | 
