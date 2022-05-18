@@ -135,23 +135,39 @@ effects truly arise from the administered drugs. For example, the effect should 
 due to an indirect dietary restriction effect because animals eat less food containing
 the drug which might be perceived as distasteful or toxic.
 
-I will list drugs that currently have demonstrated prolonging longevity effects in mammals. Full list with over 800 compounds can be found in afromentioned DrugAge database. Additionally the National Institute for Aging has the NIA Interventions Testing Program, or ITP (Nadon et al., 2017) where they test the same thing in three labs with larger sample sizes and rigid experimental protocols. Their stage one uses around 100 mice per group, while their more rigorous second stage tests use up to 500 mice across all the labs per group. This testing has revealed as of 2017 six compounds that extend life in mice. Some of them only worked on males, others on both male and female mice, and in those the effect by gender were different.
+In order to test these drugs we need a standardised protocol. Almost 20 years ago, the National Institutes of Health (NIH) via the National Institute on Aging (NIA) rolled out the Intervention Testing Program (ITP), a multi-institutional study investigating treatments that extend lifespan in mice.
 
-One should be careful about the [potential side effects](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7541369/) and only optimizing for maximum lifespan does not seem smart. 
+The ITP is an attempt to standardize and simplify not just how we measure the effects of these interventions on mice, but also what we measure. Sometimes, researchers run dozens of tests and try dozens of metrics with the goal of obtaining a positive result that they can publish to great fanfare. The ITP, on the other hand, was designed to provide an answer to one simple question: does the intervention extend lifespan in genetically heterogeneous mice? And since a major goal of the project is to provide critical tests of anti-aging approaches, all data is published, including negative results.
 
-Studies with longevity effects limited to mammals:
+Aging has the NIA Interventions Testing Program, or ITP (Nadon et al., 2017) where they test the same thing in three labs with larger sample sizes and rigid experimental protocols. Their stage one uses around 100 mice per group, while their more rigorous second stage tests use up to 500 mice across all the labs per group. This testing has revealed as of 2017 six compounds that extend life in mice. Some of them only worked on males, others on both male and female mice, and in those the effect by gender were different. Consult [this](https://medium.com/apollo-ventures-insights/the-most-promising-longevity-drugs-to-date-fb7742177527) source for a more comprehensive overview.
 
-* Metformin [*As noted in pathways of aging chapter.*]
+![](https://miro.medium.com/max/1400/1*5jDjHTVs2Cc_QPymWypguQ.jpeg)
+
+Note that one should be careful about the [potential side effects](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7541369/) and only optimizing for maximum lifespan does not seem smart. 
+
+Studies with longevity effects limited to ITP outcomes:
+
 * Rapamycin [*As noted in pathways of aging chapter.*]
-* Resveratrol [Islam MS, et al. *Effect of the Resveratrol Rice DJ526 on Longevity.*]
 * *Acarbose* [David E Harrison, et.al. *Acarbose improves health and lifespan in aging HET3 mice*]
 * *Vitamin D* [Karla A. Mark, et.al. *Vitamin D Promotes Protein Homeostasis and Longevity via the Stress Response Pathway Genes SKN-1, IRE-1, and XBP-1*]
+* Aspirin [Only in males did it improve median lifespan]
+* Canagliflozin [another anti-diabetic drug similiar to Acarbose]
+* 17-α Estradiol [weak estrogen and a potent 5-α reductase inhibitor, 17-α estradiol has been shown to improve metabolic function, enhance insulin sensitivity and reduce fat and inflammation in old male mice without causing feminization]
 * *Senolytics*- senescent cells accumulate and this is negative due to the SASP, let's just get rid of them.
 
 ![](https://nintil.com/images/2020-01-05-longevity/image-20200116074410927.png)
 
 
 * *Sirtuin activating compounds (STACs)* - general category, under which resveratrol fall under, they are usually paired with NAD boosters (Most commonly, nicotinamide riboside (NR) less commonly nicotinamide mononucleotide (NMN)), to get extra NAD+ to fuel the increase in sirtuin activation.
+
+
+
+Studies that **failed** ITP outcomes:
+
+* Metformin [*As noted in pathways of aging chapter.*]
+* Resveratrol [Islam MS, et al. *Effect of the Resveratrol Rice DJ526 on Longevity.*]
+* Nicotinamide Riboside [ precursor to nicotinamide adenine dinucleotide (NAD), a ubiquitous molecule that mediates energy production in cells.]
+
 
 ### Parabiosis
 

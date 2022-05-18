@@ -59,6 +59,8 @@ Reader is advised to reference [here](https://www.frontiersin.org/articles/10.33
 
 One of the most important obstacles is waiting for human biology to confirm certain longevity intervention. What if we can simulate this?
 
+Sure one potential solution are the animal models that we outline in chapter 4. But sometimes these animal models do not translate well to human outcomes. But can we do that computationally?
+
 Aging clocks seem to predict true biological state (age). Great overview can be found [here](https://www.technologyreview.com/2022/04/15/1050019/aging-clocks/).
 
 The most important aspect is the input data/biomarkers that are informative in infering the biological information.
