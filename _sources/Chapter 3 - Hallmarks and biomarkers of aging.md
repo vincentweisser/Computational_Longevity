@@ -50,6 +50,8 @@ It comes back to one of the fallacy I outlined: **Oversimplification of biology.
 
 Hypothesis is simple, what are the things that we can measure that captures what is happening in a cell or an organism at a given moment. With these measuraments we can discriminate what is old and what is young age. Even tough it overlaps with previously measured things there are a lot of additional things that go into this discussion. Check [here](https://link.springer.com/article/10.1007/s11912-020-00977-w/tables/2) for additional details: 
 
+https://agelesspartners.com/research/ageless-multiomics/
+
 ![](https://i.postimg.cc/Yq4CNqVz/hallmark.jpg)
 
 Reader is advised to reference [here](https://www.frontiersin.org/articles/10.3389/fgene.2021.686320/full). One of the interesting computational approaches utilising these datapoints is [aging clocks](https://www.technologyreview.com/2022/04/15/1050019/aging-clocks/).
