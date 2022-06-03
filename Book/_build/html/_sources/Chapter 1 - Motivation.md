@@ -2,7 +2,7 @@
 ***
 >*Important notes*:
 * This is a rolling set of writings, meaning information will be added on a regular basis. There is no end.
-* Any corrections and/or additions are encouraged.
+* Any corrections and/or additions that are substantial will be rewarded with 100$ worth of ETH. Contact me with your PR on github and wallet adress here: https://www.linkedin.com/in/noahweber123/
 ***
 
 # Chapter 1 - Motivation

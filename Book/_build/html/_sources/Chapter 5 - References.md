@@ -1,7 +1,7 @@
 # References
 
 
-### All of the references listed here, had major contributions to writting these asseys. They should take all the credit. I just repurposed what they reported.
+### All of the references listed here, had major contributions to writting these asseys. Please credit them.
 
 1. http://www.biomech.ulg.ac.be/project/multi-omics/
 2. https://mikeant.medium.com/debugging-biology-e0b4e809b791
@@ -13,3 +13,4 @@
 9. https://longevity-degree.teachable.com/courses/enrolled/1243538
 10. https://www.frontiersin.org/articles/10.3389/fbioe.2020.00034/full
 11. https://srconstantin.github.io/2020/01/15/aging-interventions-from-old-papers.html
+12. https://agelesspartners.com/research/ageless-multiomics/
