@@ -79,7 +79,7 @@ Whats more interesting is that we have been trying to [solve this problem](https
 > *But what is the problem definition ?*
 
 
-**Prolonged health span, not necessaraly life span.**
+**Prolonged health span, not only life span.**
 
 I like to think of the longevity problem as a multi-objective optimization.
 

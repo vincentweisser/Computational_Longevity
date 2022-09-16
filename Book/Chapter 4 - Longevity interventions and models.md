@@ -223,6 +223,9 @@ Oddly, senescent cell's SASP make it easier for neighbouring cells to be reprogr
 
 For a great detailed overview have a look [here](https://www.adanguyenx.com/blog/partial-reprogramming). Or a recent paper [here](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(22)00025-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0167779922000257%3Fshowall%3Dtrue). Tackling this problem with machine learning is already underway and [companies](https://www.shiftbioscience.com/) are trying to find novel factors and their combinations that could make a difference.
 
+Note that combining multiple therpies might even have better effects: [Combining Stem Cell Rejuvenation and Senescence Targeting to Synergistically Extend Lifespan](https://www.biorxiv.org/content/10.1101/2022.04.21.488994v1)
+
+
 ##  Environmental effects on ageing
 
 ![](https://flyextremeworld.com/ImageCart/1968_global_warming.jpg)

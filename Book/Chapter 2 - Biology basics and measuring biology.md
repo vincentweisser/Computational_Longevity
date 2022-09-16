@@ -472,6 +472,10 @@ of IIS genes in the liver of naked mole rats compared to mice.
 
 Comprehensive database, Aging Atlas, can be found [here](https://academic.oup.com/nar/article/49/D1/D825/5943197).
 
+An organism undergoes phenotypic modifications with aging; however, the rate at which these occur varies widely between individuals. Loss of muscle tone and skin elasticity, reduction of visual acuity, or reduced flexibility occurs differently, due to decline in gene expression. Omics technologies have the capacity to personalize aging research to reveal aging types or ageotypes.
+
+[Analytical tools to assess aging in humans: The rise of geri-omics](https://agelesspartners.com/research/ageless-multiomics/)
+
 ## Network biology approach in longevity
 
 ![](https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fnrg1272/MediaObjects/41576_2004_Article_BFnrg1272_Fig2_HTML.jpg?as=webp)
@@ -517,6 +521,19 @@ Potential applications of network biology:
 How to construct and the perform graph topology analysis in order to extract insight:
 
  ![](https://i.postimg.cc/L6nvxfmP/Screenshot-2022-04-20-075723.jpg)
+
+
+## Extracellular matrix (ECM) and its connection to longevity
+
+Extracellular matrix is a large network of proteins and other molecules that surround, support, and give structure to cells and tissues in the body. The extracellular matrix helps cells attach to, and communicate with, nearby cells, and plays an important role in cell growth, cell movement, and other cell functions.
+This three-dimensional network that provides physical structure to the body and serves as a substrate for cells to live and grow. Cells often modify the components of the ECM, such as osteoclasts and osteoblasts, which, respectively, degrade and lay down bone ECM. Two of the most characteristic consequences of aging, wrinkled skin and stiffening arteries, are the direct result of changes to the ECM. Similar, detrimental changes occur with age in most tissues.
+
+While these changes are certainly an end result of aging, ECM modifications are often overlooked as a cause of aging. Cells are sensitive to their environment and can drastically change their behavior based on the type of substrate where they currently reside. Reliably reproduced experiments have shown various ECM characteristics such as stiffness and chemical composition to impact cell behaviors like proliferation rate (i.e. cancer, senescence), secretome (i.e. inflammation), differentiation (i.e. stem cell exhaustion, wound repair) and cellular maintenance (i.e. metabolism, autophagy). Consensus is currently building to regard ECM-related changes, particularly matrix stiffening, on a similar level to the other hallmarks of aging.
+
+"Accumulation of damage to the ECM drives cellular aging and disease progression. Collagen fragmentation, collagen glycation, collagen crosslinking, and aggregation of proteins in the extracellular space affect ECM integrity to accelerate agin." From [The Matrisome during Aging and Longevity](https://www.karger.com/Article/FullText/504295)
+
+![](https://www.researchgate.net/profile/Abdelaziz-Ghanemi/publication/340352699/figure/fig1/AS:875550012895237@1585758798873/Example-of-extracellular-matrix-ECM-implications-The-extracellular-matrix-is-involved.png)
+
 
 ## General Measurament tools
 I am going to name a couple of prominent methods important for capturing information on different levels, from proteomics to genomics. Check [here](https://mikeant.medium.com/debugging-biology-e0b4e809b791) for the source and a great read.
@@ -612,5 +629,4 @@ One of the central resources is [**HAGR** (Human Ageing Genomic Resources)](http
 * **[AgeMap](http://cmgm.stanford.edu/~kimlab/aging_mouse/)**—a database integrating gene expression for aging in mice.
 * **[GiSAO](https://gisao.genome.tugraz.at/gisao_web/)**—a database  of genes involved in Senescence, Apoptosis and Oxidative Stress.
 * **[Aging Research Portfolio](http://agingportfolio.org/)**—a databse on aging research world wide.
-* **[UniProt](https://www.uniprot.org/)**—a databse of protein sequence and functional information
-* **[UniProt](https://www.uniprot.org/)**—a databse of protein sequence and functional information
+* **[UniProt](https://www.uniprot.org/)**—a database of protein sequence and functional information

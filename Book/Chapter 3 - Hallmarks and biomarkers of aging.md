@@ -48,9 +48,13 @@ It comes back to one of the fallacy I outlined: **Oversimplification of biology.
 
 ## Biomarkers of aging
 
-Hypothesis is simple, what are the things that we can measure that captures what is happening in a cell or an organism at a given moment. With these measuraments we can discriminate what is old and what is young age. Even tough it overlaps with previously measured things there are a lot of additional things that go into this discussion. Check [here](https://link.springer.com/article/10.1007/s11912-020-00977-w/tables/2) for additional details: 
+Hypothesis is simple, what are the things that we can measure that captures what is happening in a cell or an organism at a given moment. With these measuraments we can discriminate what is old and what is young age. Even tough it overlaps with previously measured things (like multi-omics) there are a lot of additional things that go into this discussion. 
 
-https://agelesspartners.com/research/ageless-multiomics/
+![](https://i.ibb.co/n7BtKXV/markers.png)
+
+
+Check [here](https://link.springer.com/article/10.1007/s11912-020-00977-w/tables/2) for additional details: 
+
 
 ![](https://i.postimg.cc/Yq4CNqVz/hallmark.jpg)
 
