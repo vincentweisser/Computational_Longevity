@@ -4,11 +4,13 @@ Here I have set out to outline following things:
 
 * Basics of (longevity) biology.
 * Quantifying biological research in longevity.
-* Network biology approach in longevity.
 * Tools for measuring the data.
 * Data sources specifically dedicated to aging.
+* Network and omics approach to research aging.
 
-Cell, as a basic unit of life, contains answers to all of the life questions. Including longevity. Studying it is a good start to tackle longevity.
+Cell, as a basic unit of life, contains answers to all of the life questions, including longevity.
+
+Studying the cell is a good start to tackle longevity.
 
 [Essentials of Cell Biology](https://www.nature.com/scitable/ebooks/cntNm-14749010/118237871/) provides a great introduction. Here I will try to briefly reiterate definitions that are relevant.
 
@@ -26,45 +28,48 @@ Cell, as a basic unit of life, contains answers to all of the life questions. In
 ### Genes
 ![](https://www.news-medical.net/image.axd?picture=2020%2F6%2Fshutterstock_1238405779.jpg)
 
-From a structural perspective, DNA is a double-helix of two chains of nucleotides (adenine, thymine, guanine, cytosine, ATGC). If we take one of the strands of this double-helix, one can identify different sections that do different things, these are the genes. In turn, a given gene can be further broken down into codons, or triplets of nucleotides, e.g. the sequence A-T-G.
+DNA is a double-helix structure composed of two chains of nucleotides (adenine, thymine, guanine, cytosine, or ATGC). Within this structure, different sections, known as genes, perform specific functions. These genes can be further divided into codons, which are sequences of three nucleotides, such as ATG. Understanding the structure and function of DNA is essential for fields such as genetics and molecular biology.
 
 ### Transcription
 
 ![](https://www.thoughtco.com/thmb/a41xHFS4GT-SugfXXNdWCKZD9UY=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/protein_synthesis-114c6e97b3494f04abc60643d7fda11a.jpg)
 
 
-To go from the sequence of codons to something more interesting, the DNA is copied by the enzyme RNA polymerase into a strand of RNA (pre-mRNA) which is then modified to eventually become messenger RNA (mRNA). A single strand of pre-mRNA can yield many strands of mRNA. [TODO visualise exons and introns] A strand of pre-mRNA can be thought of as a chain of "useful" sections (exons) and "separator" sections (introns). pre-mRNA is cut at the introns and joined back together by a spliceosome, a complex association of 80 proteins conforming a molecular machine. This process is not always the same! Depending on how this cutting and pasting happens, different mRNA sequences will result, in turn leading to different proteins being made out of the same gene.
+The process of gene expression involves the conversion of DNA sequences into functional proteins. This process begins with the enzyme RNA polymerase, which copies the DNA sequence into a single strand of RNA known as pre-mRNA. This strand of RNA is then modified to become messenger RNA (mRNA), which carries the genetic information needed to produce proteins.
+
+Pre-mRNA contains both "useful" sections, known as exons, and "separator" sections, known as introns. The introns are removed from the pre-mRNA by a complex association of proteins called the spliceosome, resulting in the formation of mRNA. This process is not always the same, as different mRNA sequences can be produced depending on how the splicing occurs. This variation can ultimately lead to the production of different proteins from the same gene.
+
+
+![](https://i.ytimg.com/vi/_asGjfCTLNE/maxresdefault.jpg)
 
 ### Translation
-mRNA is basically like one of the two strands of DNA but instead of using ATGC, it has uracil instead of thymine, so AUGC. The strand of mRNA is sent into the cytoplasm of the cell where they reach the ribosomes. There, yet another form of RNA, transfer RNA (tRNA) [TODO visualise tRNA and reading mRNA and producing amino acids ] reads the mRNA and assembles a chain of amino acids in the order dictated by the codons. So if the mRNA says AUG-GCU-UAA we get methionine-alanine (The last codon is a stop codon, and stops the transcription right there).
 
-But because there are so many of them, and because they have a few functional groups attached to them, they will interact with each other and end up curling up to conform a protein. Occasionally more than a single chain will be required for a protein to be assembled.
+![](https://i1.wp.com/www.differencebetween.com/wp-content/uploads/2012/07/Difference-Between-mRNA-and-tRNA-fig-2.png)
 
- To recap, if we write down the DNA sequence, we can know what amino acids will be produced and how they will be stitched together. But knowing how the protein will assemble itself, and what final shape it will adopt is a very hard problem.
+The process of gene expression involves the translation of nucleotide sequences in DNA and RNA into functional proteins. Messenger RNA (mRNA), which carries the genetic information needed for protein synthesis, is transcribed from DNA and transported into the cytoplasm of the cell. In the cytoplasm, the mRNA is read by transfer RNA (tRNA) and used to assemble a chain of amino acids in the order dictated by the nucleotide sequence. These amino acid chains will then fold and interact to form a protein.
 
-The narrative outlined above is what is known as the Central dogma of molecular biology The real picture is somewhat more complicated. For example, once a protein is floating around, this protein can interact with the DNA itself and regulate its activity; this is the basis for epigenetics.
+The sequence of nucleotides in DNA ultimately determines the sequence of amino acids in a protein and the protein's final three-dimensional structure. However, predicting this structure from the DNA sequence is a difficult problem. Additionally, once a protein is produced, it can interact with the DNA and regulate its activity, giving rise to the field of epigenetics. This process is known as the central dogma of molecular biology, although the reality is more complex.
 
 ### Gene expression regulation
 
-We still need one more thing: Almost every cell in an organism shares the same DNA (There are exceptions, as in the adaptive immune system), yet a neuron is markedly different from a cell in the liver. This is because not every gene is expressed in every cell: they can be switched on and off (gene regulation), by means of either internal (maybe the concentration of some protein, what proteins are present inside) or external (exposition to certain molecules outside of the cell) signals.
+Gene expression is the process by which the genetic information encoded in DNA is used to produce functional proteins. Not every gene is expressed in every cell, and the regulation of gene expression allows cells to perform different functions and develop specialized characteristics. Gene regulation can occur at various stages in the process of gene expression, including before transcription, during transcription, during translation, and post-translation.
 
-This regulation can happen at various levels in the gene -> protein route explained above.
+Epigenetics is the study of changes in gene expression that are not caused by changes in the DNA sequence. These changes can be influenced by internal or external signals, and can affect gene expression at the level of transcription. Transcription factors, proteins that bind to specific genes, can also regulate gene expression by promoting or suppressing the transcription of mRNA.
 
-* Before transcription: This is covered under epigenetics, in the next section.
-* During transcription: Certain proteins, called transcription factors, can bind to specific genes and promote or repress their transcription into mRNA.
-* During translation: One can also interfere with the process that takes mRNA and assembles the amino acids together. For example, one can reduce the lifespan of mRNA in the cell, if there's less of it, less proteins will be made. This is the basis of RNA interference (RNAi), used to knock down or reduce the activity of a gene.
-* Post-translation: Even when the route has come to an end and a protein has been assembled, one can still act on these newly assembled proteins, be it by disassembling them, or by tagging them by attaching certain chemical groups to them. An example of this is phosphorylation, where a phosphoryl group is attached to a protein. Phosphorylation - or any other modification to a protein - doesn't always have the same effect, it may increase the activity of a protein, or reduce it, depending on what the protein is. Another ubiquitous mechanism is ubiquitination, sticking small ubiquitin proteins to other proteins; proteins so tagged are flagged for the cell to recycle them, reducing the concentration of the protein in the cytoplasm, leading to reduced activity.
+During translation, the process of converting mRNA into amino acid chains, gene expression can be regulated by interfering with the availability of mRNA or the process of protein synthesis. This can be achieved through mechanisms such as RNA interference, which reduces the activity of a gene by reducing the lifespan of the mRNA it encodes.
+
+Post-translationally, proteins can be modified by attaching chemical groups, such as phosphoryl or ubiquitin groups. These modifications can either increase or decrease the activity of a protein, depending on the specific protein and modification. Overall, the regulation of gene expression is a complex and essential process that allows cells to perform specific functions and maintain the overall health and function of an organism.
 
 
 ### Epigenetics
 
 ![](https://www.frontiersin.org/files/Articles/613636/fgene-11-613636-HTML-r2/image_m/fgene-11-613636-g001.jpg)
 
-So far we have considered DNA as something that's just sitting there, like a file in a hard drive from which we only read. But it's possible to interpret this genetic code in different ways, and this is the main mechanism by which cells end up being so different.
+The genetic code contained in DNA can be interpreted in different ways to produce different cellular characteristics. This is achieved through a process known as epigenetics, which involves the modification of DNA and associated proteins without changing the underlying nucleotide sequence.
 
-The DNA double helix is spun around histones, another kind of protein (To make things more convoluted, there are different kinds of histones). This wrapped DNA plus some other ancillary proteins form together the chromatin molecule. Both the nucleotides itself and the histones can have their chemical structure altered without having the sequence of nucleotides changed, and these changes affect what genes get expressed -this is like writing meta-data to our source file. In the case of DNA, one way is sticking methyl groups to the DNA nucleotides, which typically will stop the gene from even being transcribed. The histones that are part of chromatin can also be methylated, though here this mark can act both as a promoter or repressor of gene expression. Other forms of epigenetic modifications are possible, like (de)acetylation, similar to methylation but involving an acetyl group, which typically opens up the chromatin facilitating gene expression; we'll see in a moment a class of proteins, the sirtuin, that are directly involved in this process and are relevant to the aging process.
+The DNA double helix is wrapped around histone proteins to form the chromatin molecule. Both the DNA nucleotides and the histones can be chemically modified, and these modifications can affect gene expression. For example, the addition of methyl groups to DNA nucleotides can prevent transcription of the gene. Histone modifications can also act as promoters or repressors of gene expression. Other forms of epigenetic modifications, such as acetylation, can facilitate gene expression by making the chromatin more accessible.
 
-Another mode of epigenetic regulation of gene expression is the formation of heterochromatin: DNA is not floating around with all of its nucleotides accessible to the transcription machinery; rather it sometimes curls in a tightly packed form -heterochromatin- that inhibits transcription.
+The formation of heterochromatin, a tightly packed form of DNA that inhibits transcription, is another mode of epigenetic regulation of gene expression. Overall, epigenetic modifications allow cells to respond to their environment and develop specialized characteristics.
 
 It seems like the relevance of epigenetics to aging is higher than it was thought years ago. (Pal and Tyler (2016), Kane and Sinclair, (2019)), and David Sinclair in particular defends a theory of aging that puts it at the core of the issue.
 
@@ -74,25 +79,17 @@ It seems like the relevance of epigenetics to aging is higher than it was though
 
 ![](https://www.news-medical.net/image.axd?picture=2019%2F5%2Fshutterstock_710795275.jpg)
 
-One might think that inside the cellular nucleus there are the very visible and nicely shaped chromosomes that we see in textbooks. But this is not true: They are generally very hard to see as they are in an uncoiled state, facilitating their interaction with other proteins. It is only when the cell is about to divide that they become tightly packed.
+Inside the nucleus of a cell, the genetic material is typically found in an uncoiled state, facilitating its interaction with other proteins. Chromosomes, which are structures formed from tightly packed DNA, are generally not visible under normal conditions. They become visible when the cell is preparing to divide.
 
-At the end of the DNA molecule there are telomeres, sections of repeated nucleotides (In humans, TTAGGG). In turn at the end of the telomere there is a 'knot' or loop around the shelterin protein complex. What shelterin (Palm & de Lange, 2008) does is to hide (Or shelter hah) the end of the telomere from the DNA repair machinery: DNA looks like a continuous strand for most of its length except at the ends, so it is efficient for the cell to recognise 'ends' of this strand as breaks, and try to repair them. But of course you wouldn't want that in the end of the chromosome, because it's a legitimate feature. However, if true damage happens to the telomeric section, it's not going to be repaired, so telomeres steadily accumulate damage. If shelterin is removed, the cell recognises this as a large DNA damage point and commits cellular suicide (apoptosis) or enters replicative arrest (senescence). We'll get to senescent cells later.
+At the ends of chromosomes, there are structures called telomeres, which consist of repeated nucleotide sequences. In humans, these sequences are TTAGGG. The telomeres are protected by a complex of proteins known as shelterin, which prevents the cell's DNA repair machinery from recognizing the ends of the chromosomes as breaks. If the shelterin complex is removed, the cell will recognize the telomeres as DNA damage and either commit cellular suicide (apoptosis) or enter a state known as senescence, in which it stops dividing.
 
-When the cell divides and chromosomes are assembled, telomeres end up as 'caps' in the arms of the chromosomes, but when the DNA is being replicated, because of the way the enzyme DNA polymerase (Which does the replication job) works, it fails to copy a few nucleotides at the end, so with each cell replication, the telomeres shorten by about 50 base pairs (bp).
+During cell division, the telomeres end up as caps on the arms of the chromosomes. However, the process of DNA replication is not perfect, and the telomeres shorten by about 50 base pairs with each round of cell division. Eventually, the telomeres become too short to maintain their protective structure, leading to the recognition of DNA damage and the activation of cell death pathways. The number of times a cell can divide before this occurs is known as the Hayflick limit.
 
-Once the telomere is short enough, it won't be able to maintain the 'loop' structure at its end, thus it will be recognised as a DNA break, triggering cell death. Thus given an initial telomeric length and a rate of attrition per cell division, one could calculate how many times a cell can replicate. This is known as the Hayflick limit.
+It's important to note that cells rarely reach a point where there is no telomere left at all. At birth, telomeres are around 10 kilobases long and they shorten by approximately 25 base pairs each year. This means that in theory, a cell has enough telomeres to survive for 400 years, assuming that there is no other damage to the telomeres. However, cells typically undergo apoptosis or senescence before reaching this point. Therefore, while running out of telomeres is the ultimate failsafe mechanism, it is more common for telomeres to accumulate enough damage to trigger cell death. Telomeres can therefore be thought of as a way to measure the overall damage in a cell.
 
-It's important to remark that rarely the cell will actually reach a point where there is no telomeres left at all: at birth, telomeres are around 10 kilobases long and every year we lose around 25 base pairs (Shammas, 2012) so in theory a cell has enough telomeres to go for 400 years, assuming that there is no other damage to telomeres! (Actually less than that, because there is a critically low telomere length, ~ 2 kb for humans at which the cell triggers cell death)
+It's also worth mentioning that some cells, such as stem cells that produce red blood cells, replicate a lot and their telomeres are not long enough to last throughout a person's lifetime. For these cells, there is an enzyme called telomerase that can lengthen the telomeres. Telomerase is made up of two core proteins, encoded by the TERT and TERC genes. This is the reason why some healthy habits are claimed to "lengthen telomeres". While it is technically possible for telomerase to lead to longer telomeres in the population of certain cells, for most cells, telomere length can only ever shorten.
 
-Cells however induce apoptosis or senescence way before it gets to this point, so while running out of telomere is the ultimate failsafe, it's more common for the telomere to have accumulated so much damage that this suffices to trigger cell death. Thus telomeres act as instruments to measure damage in the cell in general (Victorelli & Passos, 2017).
-
-It's important to note that cell death or senescence will happen when the shorter telomere is shorter than some threshold. For some time much attention was paid to average telomere length, but better measurement techniques made it clearer that it wasn't that way.
-
-However, we do have some cells that replicate a lot (Like the stem cells that produce red blood cells) and their telomeres are not long enough to live long enough through our lives. So for those cells that do need to replicate there is an reverse transcriptase (It makes DNA from RNA, while regular transcriptase does the opposite) enzyme, telomerase, that can lengthen the telomeres. Telomerase is made up of two core proteins, those encoded by the TERT and TERC (An RNA template) genes. The fact that telomerase exists is the reason why sometimes one may read that 'X healthy habit lengthen telomeres', technically it is possible for telomerase to lead to longer telomeres in the population of some cells like red blood cells or leukocytes (The ones typically used to measure telomere length). However, for the rest of the cells, telomere length can only ever shorten. (With the rare exception of the Alternative Lengthening of Telomeres (ALT) mechanism).
-
-Telomeres are useful to suppress cancer: If a cell replicates too fast, it will exhaust their telomeres and die. So typically when cancer does happen it is because telomerase somehow has become active, or more rarely (10% of cases) due to ALT.
-
-Some mutations can cause deficiencies in telomere length and accurate assays can help diagnose this to guide treatment, both in animal models and in humans, mutations in telomerase or abnormalities in the telomeres is linked to disease like pulmonary fibrosis or dyskeratosis congenita (Alder et al. 2018, Lopez-Otin et al., 2013) however for the general population telomere length does not seem very predictive of illness.
+Telomeres, the protective caps at the ends of chromosomes, play a critical role in the suppression of cancer. When a cell replicates too quickly, it will exhaust its telomeres and die. However, if telomerase, the enzyme that lengthens telomeres, becomes active or the alternative lengthening of telomeres (ALT) mechanism is utilized, cancer may develop. Mutations in telomerase or abnormalities in telomeres have been linked to diseases such as pulmonary fibrosis and dyskeratosis congenita. However, for the general population, telomere length is not a strong predictor of illness.
 
 
 
@@ -103,19 +100,9 @@ Some mutations can cause deficiencies in telomere length and accurate assays can
 
 **Reactive Oxygen Species (ROS)**
 
-We've been talking about damage. One kind of such damage is ROS, the only known molecular species present in the organism capable of cutting off covalent bonds indiscriminately. ROS is produced in substantial amounts at mitochondria as a byproduct of ATP (a molecule used as energy transport) production. ROS can damage among other things telomeres, which leads up to cellular senescence and in turn, aging.
+Reactive oxygen species (ROS) are known to cause damage to cellular structures, including telomeres, leading to cellular senescence and aging. However, David Sinclair's book "Lifespan" suggests that this is not a widely accepted theory in the field, as studies have shown that antioxidant intake does not prolong life and deletion of antioxidant-generating genes does not reduce lifespan. Some studies have suggested that ROS may not be directly involved in lifespan, but may impact healthspan or have more significant effects when oxidative stress is chronic rather than acute.
 
-David Sinclair, in Lifespan claims that this is not an issue for aging and that this is the consensus in the field, referring to a theory of aging known as the Oxidative Stress Theory of Aging. Indeed, back in 2009 there was a paper (Perez et al. 2009) proclaiming the theory dead, on the grounds that antioxidant intake does not prolong life, and that deletion of genes that produce antioxidants does not reduce lifespan (Likewise, the addition of extra copies of antioxidant-generating genes did not lengthen lifespan). Likewise the same was said in 2010 of the Mitochondrial Free Radical Theory of Aging or mFRTA (Lapointe, 2010).
-
-Other papers were coming out that were less pessimistic. Salmon et al (2010) admits that ROS may not be involved in lifespan, but that it may be in healthspan, or that the effects may be different (worse) if oxidative stress is chronic rather than acute (As it is in experiments).
-
-In 2013, ROS was shown to be a minor cause of mutations and damage in mtDNA (Kennedy et al. 2013). But that same year, the proponents of the oxidative aging theory replied (Barja, 2013), arguing that the criticisms are unfounded: Antioxidant intake may not lengthen maximum lifespan, but it does increase mean lifespan, longer lived species generate less ROS, additionally the location of ROS generation (In the mitochondria) ensures that extra antioxidants won't get there, so antioxidants may reduce damage outside but not damage to mtDNA. Nor does the theory need the assumption that ROS production increases with age: A constant rate of damage can cause an exponentially increasing mortality rate.
-
-In 2014, an extensive literature review (Stuart et al. 2014) concluded that indeed ROS does not cause aging via indiscriminate damage and that they play a signaling role instead.
-
-In 2015, Hou & Amunugama notice inconsistent empirical results in the area, and try to reconcile them by proposing a model where ROS does cause damage after all. They argue that the antioxidant manipulations (Via gene modification and dietary supplementation), while effective in some cases in flies, failed to work on mice because without external stress, the rate of ROS generation is low enough not to be an issue. But subject to stress, not found in lab conditions, it would be. As for the studies that delete antioxidant-generating genes, they argue that other mechanisms for antioxidant reduction are upregulated, and while infant knockout mice present a higher level of nuclear DNA damage (due to ROS), their rate of increase is slower, so that those mice reach the same level of damage as their wild-type cousins at around the same time, so lifespan is unaffected.
-
-In 2017, Rottenberg & Hoek say that the evidence supporting the mFRTA is extensive, but that in recent years it has been suggested that while ROS may be generated in the mitochondria, they are fine with this, it is oxidative damage to nuclear DNA that is the problem. As for the inconsistent results, the authors note that knocking out SOD1, a gene coding for a key antioxidant protein, does reduce lifespan significantly, but that inducing acute moderate oxidative damage is no problem for the cell, as it can swiftly fix this. Pomatto & Davies (2017) argue the same citing in vitro experiments with oxidant H2O2: A single exposure elicits a compensatory response, but chronic exposure produces lasting damage.
+The oxidative stress theory of aging proposes that reactive oxygen species (ROS), which are produced as a byproduct of ATP production in mitochondria, can cause damage to DNA and other cellular components, leading to aging and age-related diseases. However, the theory has been controversial, with some studies suggesting that ROS do not play a significant role in aging and that they may even have a signaling function. In recent years, researchers have argued that while ROS may not cause indiscriminate damage, they may still contribute to aging if they are produced at high levels or in response to chronic stress. The evidence supporting the theory remains mixed and further research is needed to fully understand the role of ROS in aging.
 
 Ren & Zhang (2018) note the existence of the "ROS and aging paradoxes" where there are evidence and theoretical arguments supporting and undermining a role for ROS in aging. They ascribe this to poor measurement and compensatory mechanisms (the antioxidant pathways being more redundant than it is thought).
 
@@ -126,62 +113,18 @@ Finally in a 2019 review, Munro & Pamenter admit as of today no consensus has be
 
 ![](https://www.sciencefacts.net/wp-content/uploads/2020/04/Mitochondria.jpg)
 
-It is almost a meme to say that mitochondria are the powerhouses of the cell, but that's what they really are. They are organelles that float around inside the cell enclosed in a double membrane that houses their own DNA (mitochondrial DNA, mtDNA); them being the only organelles that have this DNA. The regular nuclear DNA has genes that code for the ~1000 proteins that mitochondria need, except for 13 of them or so - the why might have to do with the fact that if the nucleus had those genes, then the proteins would have to be delivered into the mitochondria for the outside and apparently those 13 proteins are not easy to deliver there so they are made in-situ in mitochondrial ribosomes. Mitochondria are constantly being created (By fission of parent mitochondria) and destroyed (If they are damaged, lysosomes break them down); and mitochondria can also merge to form larger units
+Mitochondria are the powerhouses of the cell, as they are responsible for generating energy through the production of ATP. They are organelles enclosed in a double membrane, and are the only organelles that have their own DNA, called mitochondrial DNA. The regular nuclear DNA has genes that code for the ~1000 proteins that mitochondria need, except for 13 of them which are made in-situ in the mitochondria. Mitochondria are constantly being created and destroyed, and can also merge to form larger units.
 
-How do mitochondria generate energy? At a sufficiently high level, by creating an proton gradient between those two membranes. A set of molecular machines, complexes I to V pump the protons into it, which are then subsequently discharged through a rotating molecular turbine, ATP synthase that converts ADP into ATP (A useful molecule that is used for many other processes).
+Mitochondria generate energy by creating a proton gradient between their double membranes. A set of molecular machines called complexes I-V pump the protons into the gradient, which are then discharged through a rotating molecular turbine called ATP synthase that converts ADP into ATP. Cells also use other methods of generating energy, primarily through the breakdown of glucose into pyruvate, releasing ATP in the process. The pyruvate then enters the mitochondria where the complexes I-V pump protons into the double membrane. During these processes, the mitochondria use a molecule called NAD as a helper, which exists in two forms: NAD+ and NADH.
 
-Cells have other ways of generating energy; they are generally fuelled by glucose, which is then broken down to pyruvate, releasing ATP in the process, then that pyruvate goes into the mitochondria where the complexes I-V take the hydrogen atoms (protons) in pyruvate and pump them into the double membrane. During these processes, the mitochondria are using another molecule as helper called nicotinamide adenine dinucleotide (NAD) which exists in two forms: NAD+ and NADH (The latter is the former plus an extra proton).
-
-There have been theories proposed to explain part of the aging process resorting to ROS and mitochondria as noted in the earlier section, but it is worth mentioning the theory proposed by Aubrey de Grey - of SENS fame - which is not referenced in the reviews I have linked earlier but that seems to explain a bunch of the inconsistencies the research founds. In particular, the facts de Grey (2005) and (2002) starts from are:
-
-Mitochondria generate ROS
-Not much ROS does escape mitochondria (And thus they don't affect proteins in the cell)
-Because of the above, an increase of antioxidants in the cell does nothing to affect ROS or reduce damage
-ROS damages mtDNA (And this is why evolution has been moving almost every gene from the mitochondria to the cellular nucleus, save for the 13 genes that are hard to migrate)
-Deficiency in SOD2 (An antioxidant enzyme that works inside mitochondria) reduces lifespan in mice
-Cells either contain healthy mitochondria, or (In a tiny minority of cells), mitochondria that all have the same mutation (in genes that code for some of the essential proteins for complexes I-V or ATP synthase) and are inactive.
-His reasoning is then that while most damage to mtDNA leads to damaged mitochondria that are garbage-collected and replaced by new ones; if a mutation stops ATP production and thus ROS generation, the mitochondria won't experience damage and will stick around; eventually, as other healthy mitochondria are replaced due to damage, given than the defective ones are never garbage-collected (As they are not damaged), those end up dominating the entire cell. Once this happens, this disrupts the balance of NAD+ to NADH which then the cell tries to balance out in a process that ends up exporting ROS outside the cell; this ROS then reacts with -among others- LDL chosterol, oxidising it, and then this damaged form of cholesterol can cause damage to cells elsewhere.
-
-If damage to mtDNA is a cause of aging, a way to avoid it is to introduce copies of the remaining 13 genes in the celular nucleus. That way, regardless of what happens to mtDNA, there is always a way to make the relevant proteins. This is known as allotopic expression, and there has been success so far in moving 4 of those 13 genes in vitro (Made Artika, 2019)
-
-Recently, it has been found that mitochondria can also be found circulating in the blood. It's still unknown how they get there or if they play any function; likewise a recent finding is that cells can share mitochondria with each other. This is all to say that biology is incredibly complex and we are still discovering basic facts about it.
 
 ### Cellular senescence
 
 ![](https://www.mdpi.com/cells/cells-11-00672/article_deploy/html/images/cells-11-00672-g001.png)
 
-I've mentioned senescence earlier a couple of times. If a cell is damaged beyond repair, it can either die (apoptosis) and be recycled, or stick around and become a senescent cell. Senescent cells have a Senescence-Associated Secretory Phenotype (SASP) that in acute doses signals to the immune system that those cells should be cleared. But if there are too many senescent cells, then the SASP has truly negative consequences for the cells around them: A component of the SASP is the emission of cytokines and chemokines (proteins with signalling functions that regulate the activity of the immune system) to the extracellular medium that cause inflammation in neighbouring cells.
-
-In aged individuals, the % of senescent cells is usually <20% of the total number (Yang & Sen, 2018) , although this varies by tissue (Tuttle et al. 2019). In mice, young individuals have 8% of senescent cells, compared to 17% in old age (Lopez-Otin et al. 2018)
-
-To complicate things, senescent cells are not bad in general, they also help during embryonic development, tissue repair and wound healing, and of course the mechanism that turns cells senescent to begin with is in place to prevent cancer (Victorelli & Passos, 2017). On that last point, it also has to be said that senescent cells, through inflammation of nearby cells, promote cancer (Lee & Schmitt, 2019, Prieto & Baker, 2019); and eventually a senescent cell can escape that state of arrest and turn cancerous too.
-
-A commonality in senescent cells is the expression of the protein p16INKa which helps to identify them in vitro; however externally senescent cells are hard to distinguish from regular cells. A very recent review of it, a "SASP atlas" is Basisty et al. (2020), shows that there may even be different kinds of senescent cells, some of which have the positive effect noted earlier, and others just abnormal, negative effects.
-
-Their effects are so negative that even transplanting a small amount of senescent cells to other mice causes them to live less and become less healthy (Xu et al., 2018)
+Senescent cells are a type of damaged cell that have entered a state of arrest and no longer divide. These cells can either undergo apoptosis and be recycled, or stick around and release a Senescence-Associated Secretory Phenotype (SASP) that signals to the immune system to clear them. In small amounts, this SASP can have positive effects on tissue repair and wound healing. However, in large quantities, senescent cells can cause inflammation in nearby cells, increasing the risk of cancer and promoting aging. A protein called p16INKa is commonly expressed in senescent cells and can be used to identify them in vitro. However, it is difficult to distinguish senescent cells from healthy cells externally. Research suggests that there may be different types of senescent cells, some with positive effects and others with negative effects. Transplanting even a small amount of senescent cells into mice has been shown to reduce their lifespan and overall health.
 
 
-### Autophagy 
-
-![](https://images.theconversation.com/files/436311/original/file-20211208-188518-1fyp5pw.png?ixlib=rb-1.1.0&q=45&auto=format&w=754&h=448&fit=crop&dpr=1)
-
-A mechanism cells have to fix damaged component is simply to break them apart, and produce new ones from scratch: autophagy (Bareja et al., 2019). It is at least intuitive to think that throwing something and building it again from scratch is easier than trying to repair a broken component, so it's not that surprising that autophagy is involved in the alleviation of most if not all of the hallmarks of aging - to be discussed in the next section-.
-
-Interventions that target the various longevity pathways (AMPK, mTOR, IIS, sirtuins) also tend to upregulate autophagy. Here's a list of drugs that promote autophagy (From Shetty et al., 2018)
-
-![](https://nintil.com/images/2020-01-05-longevity/image-20200116074340112.png)
-
-### Inflammation
-
-![](https://www.mypathologyreport.ca/wp-content/uploads/2021/12/inflammatory-cells.jpg)
-
-When the body detects pathogens, or otherwise anything that shouldn't be there, specialised cells released small peptides called cytokines which attract immune cells (macrophages, lymphocites, etc) to the site to deal with the pathogen. There are various signs associated with it including pain, a burning sensation, redness and swelling; the root cause being vasodilatation to facilitate the arrival of immune cells to the area.
-
-This all sounds good and reasonable, but what does it have to do with aging?
-
-Remember the senescent cells? Part of the SASP is the emission of cytokines, a way of telling the immune system to clear them out. But if they are not (Because there are too many, or because the immune system is weakened) then the result is chronic inflammation around the whole body. Other factors also lead to this age-related kind of inflammation, which is typically referred to as inflammaging in the literature (Franceschi et al., 2018, Xia et al. (2016)). A related concept, metaflammation refers to inflammation for metabolic reasons due to overeating, a reason that helps explain why calorie restriction works: eating triggers an inflammatory response to prepare the body against potential pathogens in the newly ingested nutrients.
-
-Inflammation is a response to a perceived threat that helps fight it, but inflammation even in the absence of any pathogen is perjudicial for the body; else we would have evolved to enjoy inflammation all the time. Inflammation swells tissues, which cause nearby tissues to expand and tear apart at the cellular level; the constant tearing up and rebuilding can lead to fibrosis (Mack, 2018). Also, the environment that inflammation creates is one that is meant to increase cell turnover (More apoptosis, but also more cell growth to replace lost cells), with granulocytes secreting toxic agents (Including ROS) to make the area affected less hospitable (But also increases damage to DNA), and specific cytokines like the tumor necrosis factor that induce cell death, and growth factors that promote cell growth. This increased turnover can facilitate the appearence of cancer.
 
 # Quantifying biological research in longevity
 
@@ -191,352 +134,14 @@ Once we have a very basic understanding of basic unit of life, the cell, the int
 
 After all, if we can measure it, we can computationally tackle it.
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/ryJRrpf/cell-measured.jpg" alt="cell-measured" border="0"></a>
 
-In molecular biology, as previously stated, the flow of genetic information is classically described by the **Central Dogma**, stating that genetic code is transcribed into RNA, which is in turn translated into proteins. These are the functional units which maintain cellular homeostasis and the source of cell type specific functions. Recently, developments in the fields of epigenetics and metabolomics have significantly challenged the Central Dogma. The genetic architecture was shown to directly affect genetic activity while the metabolism, previously thought of as one of the final outputs of the genome, was found to be a major source of input and genetic regulation by acting as an environmental sensor. 
+In molecular biology, as previously stated, the flow of genetic information is classically described by the **Central Dogma**, stating that genetic code is transcribed into RNA, which is in turn translated into proteins. These are the functional units which maintain cellular homeostasis and the source of cell type specific functions. Recently, developments in the fields of epigenetics and metabolomics have significantly challenged the Central Dogma. The genetic architecture was shown to directly affect genetic activity while the metabolism, previously thought of as one of the final outputs of the genome, was found to be a major source of input and genetic regulation by acting as an environmental sensor. This indicates that focusing on a singular source of omics data might not give a full picture.
 
-In Chapter 3, when talking about life-extension interventions we will reference the theory presented underneath and show how genomics, epigenomics etc. can be utilized for intervention purposes.
 
-
-## Genomics data for longevity
-
-![](https://cdn.medicalfuturist.com/wp-content/uploads/2018/10/Genomic-Big-Data-min.jpg)
-
-A different comparative approach to the genetics of ageing is to examine the association
-of genetic variants, located across the entire genome of a species, with a phenotype.
-These so-called genome-wide association studies (GWAS) have successfully identified
-novel genes and pathway involved in various different complex phenotypes in humans.
-In these studies, genetic variants across the entire genome are determined for individuals from two groups: people with a specific phenotype, e.g. a disease or old age, and
-similar people without the phenotype. Frequencies of the observed variants are compared between the groups and statistically tested for differences, which would imply
-association. A curated collection of all published GWAS that assay at least 100,000
-single nucleotide polymorphisms (SNPs) and all SNP-trait associations with p-values
-< 1 ∗ 10−5
-(genome-wide suggestive threshold) are published in the GWAS catalogue
-(Hindorff et al., 2009, https://www.genome.gov/gwastudies/) (see Fig. 1.4 for the
-map on longevity).
-
-GWAS have been conducted for the phenotype of longevity, which is closely related to
-ageing. Based on twin and population studies, the genetic contribution to longevity in
-humans has been estimated to be 15 to 30%. The genetic contribution to survival past
-65 and 85 years is even larger: 36% and 40%, respectively (Murabito et al., 2012). However, these GWAS on longevity have only had limited success so far. The first GWAS
-study on longevity was the Framingham Heart Study 100K project (Lunetta et al.,
-2007), which found no SNPs reaching genome-wide significance (p-value < 5 ∗ 10−8
-),
-albeit a few with modest association. 
-
-Many subsequent studies and meta-analyses did
-not find genome-wide significant results either, only suggestive associations (Malovini
-et al., 2011; Newman et al., 2010; Walter et al., 2011) including SNPs in or near the
-genes CAMKIV, OTOL1 and MINPPI. However, two studies, published around the
-same time, identified significant genome-wide associations with longevity in humans.
-Nebel et al. (2011) examined long-lived individuals and younger controls from Germany and found a single significant genome-wide association of SNP rs4420638, near
-the APOC1 gene (p=1.8 ∗ 10−10). 
-
-However, this association is fully explicable by linkage disequilibrium with the 4 allele of the apolipo-protein E (APOE) gene, which had
-been previously established in a non-genome wide study by Sch¨achter et al. (1994) to
-be detrimental for longevity. The association of ApoE 4 with shortened longevity has
-been replicated in several populations (Christensen et al., 2006). Additionally, ApoE
-4 is more strongly associated with Alzheimer’s disease than with longevity (Murabito
-et al., 2012). Overall, however, Beekman et al. (2010) showed that familial as well
-as non-familial long-lived individuals “carry the same number of disease risk alleles
-as young controls”, implying that the presence of disease risk alleles in general is not
-linked to reduced longevity. 
-
-Deelen et al. (2011) examined nonagenarians (people 90
-years of age or older) in comparison to young population-based controls and identified
-the SNP rs2075650, located in TOMM40 on chromosome 19 as the sole genome-wide
-significant association (p=3.39 ∗ 10−17). They found this SNP to be in moderate linkage with the nearby ApoE 4 (r
-2 = 0.553), and could not find any APOE-independent
-effect of rs2075650 on longevity. Thus they concluded that the SNP’s effect is mediated by APOE. Deelen et al. (2013) took this analysis a step further in using not
-a GWAS of single SNPs, but of sets of SNPs grouped by pathway, which is similar
-to the idea of comparing functionally enriched categories between different transcriptomics experiments. Several methods for using sets of SNPs in GWAS analysis had
-been previously developed. 
-
-Deelen et al. (2013) tested the association of two SNP sets
-with longevity: one SNP set for the IIS pathway and the other for the telomere maintenance pathway. Four different tests consistently showed a significant association of
-both pathways with human longevity. Genome-wide association studies have also been
-combined with genome-wide linkage analyses of long-lived siblings (Beekman et al.,
-2013). The authors identified four regions which show linkage with longevity: 14q11.2,
-17q11-q22, 19p13.3-p13.11 and 19q13.11-q13.32. They then created a model combining this information with a GWAS on a separate population. The combined model
-demonstrated that the associations of lifespan with the ApoE 4 and ApoE 2 alleles
-explain the linkage at 19q13.11-q13.32, while the other three linkage regions could not
-be explained by variants detected in the GWAS for longevity, but might be interesting
-regions to investigate further.
-An alternative approach in human longevity association studies is the targeted examination of association, e.g. of genes previously associated with ageing in model organisms. This approach reduces the number of associations to be tested, thus making it
-easier to detect significant associations. An example is the study by Bergman et al.
-(2007) which examined 66 common variants in 36 known genes associated with cardiovascular disease in different age groups of long-lived Ashkenazi Jews and their offspring.
-
-The authors examined the hypothesis that gene variants associated with longevity
-might buffer against deleterious effects of age-related disease genes and identified three
-candidate genes supporting the hypothesis: APOC-3, LPA, and CETP. The authors
-then constructed a PPI network of these three genes and their third degree neighbours,
-and analysed the minimal path connections between the initial genes. This implied
-a few additional genes including APOE, LPAL2, PLTP and APOA1. Another target
-study by Willcox et al. (2008) examined IIS genes and found Foxo3A to be associated
-with human longevity in a long-lived male Japanese cohort. This association is the
-only other highly replicated association with human lifespan (Anselmi et al., 2009;
-Flachsbart et al., 2009; Li et al., 2009; Soerensen et al., 2010), besides ApoE 4. Other
-associations such as the one of Paraoxonase 1 (PON1 ) are also the subject of targeted
-association studies and even meta-analyses (Lescai et al., 2009), which suggest that
-subjects carrying specific variants (RR or QR) of PON1 are over-represented in old
-ages
-
-
-## Epigenomics data for longevity
-
-![](https://www.genome.gov/sites/default/files/inline-images/Epigenomics_Fact-sheet2020.jpg)
-
-
-Epigenetic changes are vital to normal biological functioning and can affect natural cycles of cellular death, renewal, and senescence. Different lifestyle and behavioral factors such as diet, sleep, exercise, smoking, and drinking alcohol can also affect the composition and location of the chemical groups that bind to our DNA. Environmental factors such as stress and trauma or even neighborhoods or zip codes may also have an impact.
-
-One of the more prominent examples of  epigenomics data is DNA methylation. DNA methylation is the most researched epigenetic mark involved in various processes in the human cell, including gene regulation and development of diseases, such as cancer. Increasing numbers of DNA methylation sequencing datasets from human genome are produced using various platforms—from methylated DNA precipitation to the whole genome bisulfite sequencing. Many of those datasets are fully accessible for repeated analyses. 
-
-Consult [this](http://gero.usc.edu/labs/benayounlab/files/2018/06/Ucar-18-Chapter.pdf) free online book a comprehensive overview.
-
-## Transcriptomics data for longevity
-
-![](https://cdn.kastatic.org/ka-perseus-images/20ce29384b2e7ff0cdea72acaa5b1dbd7287ab00.png)
-
-Large scale analysis of gene expression has been used extensively in research on ageing
-(Girardot et al., 2006; McElwee et al., 2007; Pletcher et al., 2002; Selman et al., 2009;
-Zahn et al., 2007). The wide availability and decreasing cost of microarrays have supported this development. More recently, RNA sequencing, with its increased sensitivity,
-has gained much support in large scale gene expression determination and is expected
-to supersede microarrays in the future. Currently, however, the significantly higher
-costs and less well established protocols both experimentally and for the analysis are
-limiting the use of RNA sequencing. In microarray experiments, the goal is to establish
-differences in gene expression between two or more conditions: e.g. normal and disease,
-different ages, or long lived and normal lived cohorts. RNA is prepared, hybridised to
-the arrays, and raw binding data is read out via fluorescence imaging. The images are
-then converted into numerical read outs, followed by bioinformatic analysis (detailed
-in Gentleman et al. (2005, chapters 2, 4, 12-15)). Briefly, the raw numerical read out is
-background corrected and normalised within the array and among arrays to eliminate
-unspecific binding, differences in array production and other undesired factors, such
-as different fluorescence properties of the dye. Then, the differentially expressed genes
-and their statistical significance are determined, e.g. by fitting a linear model followed
-by an empirical Bayes analysis. This approach is implemented in the R package limma
-(Smyth, 2005).
-
-An example demonstrating the use of gene-expression analysis for research on ageing
-is the comparison of two well-known long-lived mutant mice strains (Ames dwarf mice
-Prop1df /df and Little mice Ghrhrlit/lit) with the WT or heterozygote state, respectively
-(Amador-Noguez et al., 2004). Using an analysis of variance (ANOVA) with p-value
-≤ 0.0001 the authors found 1125 and 1152 differentially expressed genes between mutant and control for each strain, respectively. 552 of these genes overlapped between
-the two mutants. In another study, Landis et al. (2012) used microarrays to determine
-the change in gene expression during ageing, but also in response to various types of
-stress including heat stress, oxidative stress and ionizing radiation. The authors then
-examined the overlap of the changes to determine common characteristics and found
-18 genes to be up-regulated across all conditions. In a different approach, Spindler &
-Mote (2007) used microarrays profiles to compare long-term and short-term DR to the
-effect of glucoregulatory drugs. They found that metformin produced a similar expression profile compared to DR in mice and suggested that expression profiles could be
-used as an easier way of screening drugs compared to lifespan studies.
-
-
-Lists of differentially expressed genes can be easily used for determining the similarity
-between two or more conditions, however, interpreting changes in hundreds or thousands of genes is very difficult. In order to summarise these into broader patterns two
-approaches are commonly used: functional enrichment analysis and motif analysis.
-Functional enrichments analysis searches for over-represented gene annotations such as
-GO terms or disease-association amongst the differentially expressed genes compared
-to the background. It is readily available through tools such as Catmap (Breslin et al.,
-2004) and online services such as DAVID (Huang et al., 2009), and has been applied
-in various cases including comparative studies (see section 1.3.7). The mouse study
-mentioned above (Amador-Noguez et al., 2004) found an over-representation of genes
-involved in metabolism and mitochondrial electron transport. While these broader
-categories might provide useful overviews, new tools are needed to prioritise genes for
-follow-up studies. Such genes should represent maximally different functional categories while having the largest impact on the phenotype. Such a prioritisation will
-need to take into account protein-protein and gene-regulatory network relationships.
-In motif analysis, the grouping is not based on functional annotations, but on joint
-transcriptional regulation by the same transcription factor indicated by shared binding motifs. A list of differentially expressed genes can either be searched for over- or
-under-represented motifs from databases of known motifs, or attempts can be made
-to identify motifs ab initio. The advantages of methods using databases, also called
-library-based methods, such as Clover (Frith et al., 2004), are sensitivity in detecting
-weak motifs and inclusion of information on which transcription factor corresponds
-to which motif, if this is known. There are open-source and commercial databases of
-motifs, e.g. JASPAR (Portales-Casamar et al., 2010) or TRANSFAC (Matys et al.,
-2003). Methods trying to detect motifs ab initio, such as NestedMICA (Dogruel et al.,
-2008), are less sensitive, but have the potential to discover novel motifs. An example
-of a motif analysis is the study of three long-lived mutants (sch9 ∆, ras2 ∆, and tor1 ∆)
-and wild type yeast (Cheng et al., 2007). In that study, the authors found a number of
-enriched motifs including those that correspond to the transcription factors Fhl1 and
-Gis1. These transcription factors regulate expression of ribosomal protein genes and
-stress-response genes, respectively.
-
-A different approach to detect co-regulation was used by Southworth et al. (2009), who
-looked for correlation between patterns of differential gene expression across different
-tissues of mice. They constructed a co-expression network, which defines modules of
-co-expressed genes. These modules were then characterised using GO categories and
-motif analysis. Overall, the authors found that with age, the co-expression declined
-within the modules.
-
-Transcriptomics microarray analysis was used in a very different way for research on
-ageing by Matecic et al. (2010). Their study screened a large library of yeast mutants
-containing DNA bar codes for survival differences. To this end, all viable mutants
-were pooled and cultured under high and low glucose levels. The mixed population
-was sampled on different days (1, 9 ,21 and 33) and microarrays were used to identify differential expression of the bar codes among the different times, indicating the
-chronological lifespan of the respective strains.
-Besides the problems of interpreting a large number of genes with altered genes expression and prioritising follow up experiments, discussed above, one problem of transcriptomics is that often not the changes in RNA levels are of interest but the changes
-in protein concentration or even signalling activity, which do not correlate in all cases.
-
-
-
-
-## Proteomics data for longevity
-
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZiGDKTDHA--vyio7qTW6TrjJ_b6SLkLBEDQ&usqp=CAU)
-
-In contrast to transcriptomics, which examines RNA expression levels using microarrays or next-generation sequencing, proteomics and metabolomics are the profiling of
-protein and metabolite levels, respectively, usually using advanced mass spectrometry.
-In proteomics, the focus can be on different aspects from relative protein concentrations
-to protein modifications and complex formation. Proteomics studies for questions of
-research on ageing are relatively rare, certainly when compared to gene expression
-analyses. However, the number of such studies is increasing (reviewed by Schiffer et al.,
-2009; Sharov & Schoneich, 2007). An example is the analysis of changes in protein
-concentration in the long-lived daf-2 mutants in C. elegans (Jones et al., 2010). 
-
-The
-authors found changes for proteins related to cellular maintenance and detoxification
-processes, in agreement with previous transcriptional analyses. A recent study by
-Depuydt et al. (2013) also analysed the protein changes in daf-2 mutant in C. elegans
-and found general protein synthesis levels and in particular the abundance of ribosomal
-subunits decreased. Surprisingly, their analyses found that ribosomal transcript levels
-were not correlated to actual protein abundance, suggesting that post-transcriptional
-regulation would determine ribosome content and highlighting the uncertainties in
-general agreement between transcriptomics and proteomics analyses. A different example of a proteomics study is the study by Robinson et al. (2010), which examined
-changes in the proteome of Drosophila males reared at two different temperatures
-over their lifespan. Using liquid chromatography and tandem mass spectrometry the
-authors found 33 proteins that shared similar patterns when using scaling time points
-according to the group’s lifespan, instead of the absolute time points.
-
-
-For the most recent advances of proteomics and involvement in Aging look [here](https://pubmed.ncbi.nlm.nih.gov/33730416/).
-
-## Metabolomics data for longevity 
-
-![](https://www.mtidx.com/public/uploads/images/mti_metabolomics/1578509820-640w_mti_metabolomics.jpg)
-
-Metabolites such as glucose and oxygen species have been shown to be important in
-ageing, and some metabolomics studies on ageing have been conducted. An example
-is the analysis of membrane phospholipid composition in long-lived naked mole rats
-compared to short-lived mice (Mitchell et al., 2007). The statistical analysis of mass
-spectrometry measurements indicated marked differences between the two species,
-e.g. lower level of docosahexaenoic acid containing phospholipids, which suggests a
-lower susceptibility to peroxidative damage in membranes of naked mole-rats compared
-to mice. Yoshida et al. (2010) used metabolic profiling of various yeast mutants and
-discovered a correlation between the metabolic profiles and yeast replicative lifespan
-(i.e. how many rounds of replication a yeast cell will undergo). They further developed
-a multi-variate model based on the metabolic profiles to predict yeast replicative lifespan. This model allows screening for lifespan mutants in yeast using metabolic profiles
-as the read out. Using nuclear magnetic resonance, Fuchs et al. (2010) examined the
-metabolome of various longevity mutants of C. elegans, including daf-2, and found a
-common metabolic signature, which might indicate that there are hidden connections
-among diverse longevity mechanisms.
-
-
-For the most recent advances of Metabolomics Signatures of Aging look [here](https://pubmed.ncbi.nlm.nih.gov/33815888/).
- 
-
-
-## Multi -omics approach in longevity
-
-![](https://www.researchgate.net/profile/Ashok-Kumar-T-2/publication/320324303/figure/fig1/AS:549025272090629@1507909233497/An-illustration-of-multi-omics-data-integration-through-integrative-systems-biology.png)
-
-Omics analysis is usually used in conjunction with other assays and I will briefly highlight a few examples of multiple -omics approaches. One example is the combination
-of gene expression analysis with information on genome variations in the form of single
-nucleotide polymorphisms (SNPs). Wheeler et al. (2009) analysed gene expression in
-human kidney cells and found 630 genes with age-dependent changes in gene expression,
-101 of which contained expression-associated SNPs. The two staged approach used here
-reduced search space and thus the number of statistical tests for association, making it
-easier to detect significant effects. A different example combined gene expression transcriptomics with metabonomics (Selman et al., 2006). In this study, gene expression
-from liver, skeletal muscle, colon and hypothalamus of acute dietary restricted mice
-were determined. The expression profiles together with blood plasma metabonomic
-profiles lead the authors to conclude that “mice undergoing acute CR rapidly adopt
-many transcriptional and metabolic changes of long-term CR” (Selman et al., 2006).
-
-A potentially interesting study on ageing could be the combination of different -omics
-data sets available on several long-lived mutants such as daf-2 in C. elegans (microar-
-rays (Murphy et al., 2003), proteomics (Dong et al., 2007) and metabolomics (Fuchs
-et al., 2010)).
-Recently, the genome of the naked mole rat, the longest living rodent with a maximal
-lifespan larger than 30 years, has been sequenced using next-generation sequencing
-(Kim et al., 2011). This animal has not only a remarkably long lifespan, but is also
-reported to have other extraordinary characteristics including negligible senescence, no
-age-related increase in mortality, high fecundity until death as well as resistance to
-spontaneous and induced cancers. The study by Kim et al. (2011) not only sequenced
-and assembled the genome, but also predicted genes and gene functions, analysed
-lost and gained genes and their functional categories as well as their association with
-phenotypic characteristics. The authors additionally identified 1.87 million SNPs and
-measured gene expression in brain, liver and kidney at three different ages (new-born,
-young adult (4 years), old adult (20 years)) using RNA-seq. Differential gene expression analysis revealed few changes between young and old adults compared to other
-mammals. Overall, genome and transcriptome data showed distinct patterns of naked
-mole rat genes compared to humans, mice and rats, and these patterns might include
-those genes important for the different lifespans. One example is the lower expression
-of IIS genes in the liver of naked mole rats compared to mice.
-
-Comprehensive database, Aging Atlas, can be found [here](https://academic.oup.com/nar/article/49/D1/D825/5943197).
-
-An organism undergoes phenotypic modifications with aging; however, the rate at which these occur varies widely between individuals. Loss of muscle tone and skin elasticity, reduction of visual acuity, or reduced flexibility occurs differently, due to decline in gene expression. Omics technologies have the capacity to personalize aging research to reveal aging types or ageotypes.
-
-[Analytical tools to assess aging in humans: The rise of geri-omics](https://agelesspartners.com/research/ageless-multiomics/)
-
-## Network biology approach in longevity
-
-![](https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fnrg1272/MediaObjects/41576_2004_Article_BFnrg1272_Fig2_HTML.jpg?as=webp)
-
-The premise is that with the explosion of data and the complex intrecacies of the relationships between all of the different (multi-omics) datasets, there needs to be a quantitative way to represent and find these networks of relationship.
-
-Large-scale consortium-based efforts looking at the various aspects of human biology have allowed the application of network-based methods to uncover new insights into the molecular mechanisms of the given phenotype, such as tissue specificity or disease context.
-
-Examples of real world biological networks:
-
-* **Protein-Protein Interaction Networks (PPIs)**
-This type of networks holds information about how different proteins operate with each other to enable a biological process within a cell. The interactions in a PPI network can be physical or predicted. Notably, a whole interactome can capture all PPIs happening in a cell or an organism. In vivo and in vitro methods for detecting PPIs include: X-ray crystallography, NMR, tandem affinity purification (TAP), affinity chromatography, coimmunoprecipitation, protein arrays, protein fragment complementation, phage display and yeast two-hybrid (Y2H). Widely used repositories (Lehne and Schlitt, 2009; Szklarczyk and Jensen, 2015) which host PPIs for various organisms are the BioGRID (Stark et al., 2006), MINT (Chatr-aryamontri et al., 2007), BIND (Bader et al., 2003), DIP (Xenarios et al., 2000), IntAct (Hermjakob et al., 2004a), and HPRD (Peri et al., 2003) database. Concerning topology, the PPI networks follow a small-world property and are scale-free networks. Central hubs often represent evolutionarily conserved proteins, whereas cliques (fully connected subgraphs) have been found to have a high functional significance (Spirin and Mirny, 2003).
-
-* **Sequence Similarity Networks (SSNs)**
-These networks consist of nodes representing proteins or genes and edges capturing the sequence similarity between amino acid or nucleotide sequences. Widely used tools (Ekre and Mante, 2016) for obtaining a sequence similarity between two sequences are the BLAST (Altschul et al., 1990), LAST (Kiełbasa et al., 2011), and FASTA3 suite (Pearson, 2000), which contains SSEARCH, GGSEARCH, GLSEARCH executables of Smith-Waterman (Smith and Waterman, 1981) and Needleman-Wunsch (Needleman and Wunsch, 1970) implementations for local and global sequence alignment. These networks are weighted, have a small-world and scale-free topology and often contain hubs. Often, clustering algorithms are applied on such networks for the detection of protein families. Like in PPIs, proteins that lie together in such networks are more likely to have similar functions or be involved in similar biological processes (Sharan et al., 2007). While it is not straightforward to come to a conclusion about their density, when coping with fragmented sequences (e.g., alignments of predicted proteins from metagenomes), the networks are rather sparse.
-
-* **Gene Regulatory Networks**
-
-![](https://upload.wikimedia.org/wikipedia/commons/c/c4/Gene_Regulatory_Network.jpg)
-A gene (or genetic) regulatory network (GRN) is a collection of molecular regulators that interact with each other and with other substances in the cell to govern the gene expression levels of mRNA and proteins which, in turn, determine the function of the cell.
-They are collections of regulatory relationships between transcription factors (TFs) and TF-binding sites or between genes and their regulators. Normally, these networks are directed, dynamic, and can be visualized as bipartite graphs. In such networks, most nodes have only a few interactions and only a few hubs come with a higher connectivity degree. In any case, such networks follow a power law degree distribution (scale-free) p(k) ~ k−γ, γ ≈ 2 (Vázquez et al., 2004). Among a variety of databases hosting information about gene regulation, widely used repositories are the KEGG (Kanehisa and Goto, 2000), GTRD (Yevshin et al., 2019), TRANSFAC (Matys et al., 2003), TRRUST (Han et al., 2018).
-
-* **Signal Transduction Networks**
-These networks capture cell signaling or otherwise the transmission of molecular signals as well as a series of molecular events within a cell or from the exterior to its interior (Fabregat et al., 2018). A signal transduction network normally consists of several thousand nodes and edges representing a series of reactions. These networks are mostly directed and sparse. They follow a power law degree distribution as well as small-world properties. While such data can be found in well-known pathway databases (KEGG, Reactome), specialized repositories such as the MiST (signal transduction in microbes) (Ulrich and Zhulin, 2007), NetPath (Kandasamy et al., 2010), or Human-gpDB (Satagopam et al., 2010) also exist.
-
-* **Metabolic Networks**
-They are networks consisting of metabolites (nodes) and their interactions in an organism. Metabolites can be either smaller molecules such as amino acids or larger macromolecules like polysaccharides. These networks are usually directed graphs and can be represented as Petri nets (Reisig, 1985; Chaouiya, 2007). They are scale-free, they carry small-world properties (Jeong et al., 2000) and can often be organized using hierarchies (Gagneur et al., 2003). In order to gain insights into their decomposition, heuristic modularity optimization over all possible divisions to find the best one is required (Newman and Girvan, 2004). KEGG and Reactome databases are two of the most widely used repositories for this type of network.
-
-* **Gene Co-expression Networks**
-They are undirected weighted networks where two nodes (genes) are connected if there is a significant co-expression between them. Such networks are usually constructed using data from high-throughput technologies such as Microarrays, RNA-Seq or scRNA-seq. For each pairwise connection, a metric like for example, the Pearson Correlation Coefficient (PCC) (Kirch, 2008) can be used to calculate an edge's weight. Often, a threshold or a Z-score are applied on the whole network in order to accept correlations above a certain cutoff. Otherwise the network would look like a fully connected clique. After the threshold and depending on the total clustering coefficient, the network can be clustered to detect functional modules. One typical example is the ribosomal genes which tend to group together due to similar expression patterns. Expression data for such analyses can be found in widely used repositories such as GEO (Barrett et al., 2013) or ArrayExpress (Parkinson et al., 2007). Notably, Arena-Idb (Bonnici et al., 2018) repository can be used for human non-coding RNAs interactions.
-
-
-
-
-
-Potential applications of network biology:
-
-* Clustering --- finding families and centralities inside big graphs
-* Network Alignment --- In today's multi-Omics era, integration of heterogeneous information (e.g., transcriptomics, proteomics, metabolomics, etc.) in a multi-layered network structure is becoming a trend. Additionally, methods to directly compare networks and their topological features are gaining ground. To address these issues, network alignment, or alternatively graph isomorphism approaches can be used. Notably, graph alignment is not a trivial task as it is computationally expensive and has been characterized as NP-complete (Zampelli et al., 2010). The concept behind network alignment is to highlight conserved or missing nodes and edges across two (pairwise) or more (multiple) networks.
-* Link prediction --- Besides network alignment, predicting link changes in a single network has recently drawn attention in the biomedical field. Link prediction might concern the creation of future edges or the identification of missing links (e.g., incomplete data). While link prediction techniques are widely used by social media, in biological networks, they have also been used to identify potential drug side effects, protein-protein interactions, disease phenotypes based on molecular information and phylogenetic relations. For example, its application on bipartite graphs has unraveled new drug-target interactions (Kunegis et al., 2013).
-* Network Perturbation --- In biology, direct comparisons between a disease and a healthy state are very common, thus making the study of molecular changes essential. Therefore, at a network level, changes between such states are considered as biological network perturbations. In network medicine, a network's topology can be used as the backbone to further predict side effects in a system even at a 65–80% success rate (Santolini and Barabási, 2018).
-
-How to construct and the perform graph topology analysis in order to extract insight:
-
- ![](https://i.postimg.cc/L6nvxfmP/Screenshot-2022-04-20-075723.jpg)
-
-
-## Extracellular matrix (ECM) and its connection to longevity
-
-Extracellular matrix is a large network of proteins and other molecules that surround, support, and give structure to cells and tissues in the body. The extracellular matrix helps cells attach to, and communicate with, nearby cells, and plays an important role in cell growth, cell movement, and other cell functions.
-This three-dimensional network that provides physical structure to the body and serves as a substrate for cells to live and grow. Cells often modify the components of the ECM, such as osteoclasts and osteoblasts, which, respectively, degrade and lay down bone ECM. Two of the most characteristic consequences of aging, wrinkled skin and stiffening arteries, are the direct result of changes to the ECM. Similar, detrimental changes occur with age in most tissues.
-
-While these changes are certainly an end result of aging, ECM modifications are often overlooked as a cause of aging. Cells are sensitive to their environment and can drastically change their behavior based on the type of substrate where they currently reside. Reliably reproduced experiments have shown various ECM characteristics such as stiffness and chemical composition to impact cell behaviors like proliferation rate (i.e. cancer, senescence), secretome (i.e. inflammation), differentiation (i.e. stem cell exhaustion, wound repair) and cellular maintenance (i.e. metabolism, autophagy). Consensus is currently building to regard ECM-related changes, particularly matrix stiffening, on a similar level to the other hallmarks of aging.
-
-"Accumulation of damage to the ECM drives cellular aging and disease progression. Collagen fragmentation, collagen glycation, collagen crosslinking, and aggregation of proteins in the extracellular space affect ECM integrity to accelerate agin." From [The Matrisome during Aging and Longevity](https://www.karger.com/Article/FullText/504295)
-
-![](https://www.researchgate.net/profile/Abdelaziz-Ghanemi/publication/340352699/figure/fig1/AS:875550012895237@1585758798873/Example-of-extracellular-matrix-ECM-implications-The-extracellular-matrix-is-involved.png)
-
+![](data:image/png;base64,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)
 
 ## General Measurament tools
-I am going to name a couple of prominent methods important for capturing information on different levels, from proteomics to genomics. Check [here](https://mikeant.medium.com/debugging-biology-e0b4e809b791) for the source and a great read.
+I am going to name a couple of prominent methods important for capturing information on different levels, from proteomics to genomics.
 
 * **Sequencing** — reads the structure of DNA and RNA.
 * **qPCR** — Real Time polymerase chain reaction, which monitors amplification of DNA with help of fluorescence. Useful for diagnostics, quantification of gene expression.
@@ -545,7 +150,7 @@ I am going to name a couple of prominent methods important for capturing informa
 
 ### Sequencing
 
-DNA and RNA sequencing tools read the chain of nucleic acids, decoding them into sequences of 2-bit bases representing Cytosine, Guanine, Adenine, Thymine (or Uracil in RNA). These sequences are important because they contain genes that guide creation of proteins, their regulation and other machinery of life. A switch in one base could replace an amino acid in a protein, breaking its functionality and introducing disease; alternatively, it could also provide an evolutionary advantage. The whole human genome contains around 3.1 billion bases (or 6.2 billion if counting both chromosomes), and the major scientific achievement of the last twenty years was first determining the structure of these bases, and then dropping the cost of doing so to just a few hundred dollars today.
+Sequencing techniques, such as DNA and RNA sequencing, are widely used in research to study genes and their functions. These techniques involve decoding the sequence of bases in nucleic acids, which can provide insight into gene expression and regulation. The cost of sequencing has dramatically decreased in recent years, making it a valuable tool in understanding cellular state and function. There are various technical approaches to sequencing, each with its own benefits and limitations. Scientists choose the appropriate approach based on their research goals, as well as cost and error rate.
 
 DNA sequencing has huge value in research as it allows us to study genes, including their differences between biological species, and with help of bioinformatics software attempt to map them to function and phenotypes. RNA sequencing allows us to understand transcription, or which genes are expressed in different cell types. Beyond this, sequencing is also used indirectly to study methylation, chromatin binding, or even perform protein assays with help of custom DNA adapters to antibodies. Overall, these tools help us better understand cellular state and function.
 
@@ -558,8 +163,9 @@ Ultimately, tens of thousands to millions of such read segments can be generated
 
 ### qPCR
 
-qPCR — Quantitative Polymerase Chain Reaction is commonly used to quantify gene expression, i.e. the level of a given RNA in the sample. This might be useful in an experiment to compare gene expression after a certain gene knockout or pathway modification, or in diagnostics to detect the presence of a certain virus.
-PCR utilizes the power of the polymerase enzyme to amplify a DNA sequence of interest. This method makes use of a thermocycler that repeatedly denatures DNA separating its strands, allowing the enzyme to copy a specific region defined by the primer sequences. As a result that specific sequence of interest is amplified over a billion times and can thus be detected. In case of qPCR, the RNA in the sample is first converted into DNA using a reverse transcriptase enzyme and then the regular PCR is run on the resulting so-called cDNA. Its abundance is detected using fluorescence, which corresponds to the level of expression and can be visualized with amplification curves.
+Quantitative Polymerase Chain Reaction (qPCR) is a method commonly used to quantify gene expression by measuring the amount of a specific RNA in a sample. This technique can be used in experiments to compare gene expression after a certain gene knockout or pathway modification, or in diagnostic tests to detect the presence of a particular virus.
+
+qPCR utilizes the polymerase enzyme to amplify a specific DNA sequence of interest. This method uses a thermocycler to repeatedly denature the DNA, separating its strands, allowing the enzyme to copy the region defined by the primer sequences. This results in the amplification of the specific sequence of interest by a billion times, making it detectable. In the case of qPCR, the RNA in the sample is first converted into DNA using reverse transcriptase enzyme, and then regular PCR is performed on the resulting cDNA. The abundance of the cDNA is detected using fluorescence, which corresponds to the level of expression and can be visualized in amplification curves.
 
 ![](https://miro.medium.com/max/1400/1*BIMF1Se3WpdOg3_GKnWEzw.png)
 
@@ -567,9 +173,9 @@ Gene expression results of qPCR might be reported in a scientific paper with an 
 
 ### Antibody-based Methods
 
-Antibody-based detection methods are used extensively in science to detect and quantify proteins and other molecular structures, as well as to stain tissue to reveal analyte location. Protein quantification is important for both research and diagnostics: on research side, protein measurement aides with mechanistic understanding of the cell function; on the diagnostic side, it enables disease detection — as an example, levels of C-reactive protein (CRP) rise in response to tissue damage and therefore are used for detection of heart disease.
-Protein quantification typically relies on protein-specific antibodies being conjugated with a unique DNA strand, a bead or an enzyme that aids detection. In case of an enzyme, it can be used to catalyze a reaction that triggers color change, observed to detect its presence.
-There are hundreds of companies providing tools and reagents for antibody-based assays, so here I’ll highlight two classical methods still used in research — Western Blot and ELISA, and mention a few more advanced modern techniques:
+Protein quantification methods are commonly used in scientific research and diagnostics to detect and measure proteins and other molecular structures. These methods often utilize specific antibodies that are conjugated with unique DNA strands, beads, or enzymes for detection. Two classical techniques that are still used in research are Western blot and ELISA. Western blot is used to detect specific proteins in a sample by separating proteins by size and transferring them to a membrane, where they are then detected with a specific antibody. ELISA, or enzyme-linked immunosorbent assay, uses a specific antibody to detect a protein in a sample by binding the protein to a plate, followed by a detection step with a second antibody.
+
+More advanced modern techniques include multiplexed immunoassays, which allow for the detection of multiple proteins in a single sample, and mass spectrometry-based proteomics, which enables the high-throughput analysis of large numbers of proteins in a sample. Protein quantification is important for understanding the mechanisms of cell function and for detecting diseases such as heart disease.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Anti-lipoic_acid_immunoblot.png/220px-Anti-lipoic_acid_immunoblot.png)
 
@@ -609,7 +215,7 @@ One of the benefits of Cry-EM is that it avoids crystallization, which can be ve
 
 
 ## Data sources
-Now that we have named the tool and the terms that we want to measure, here are central repositories containing the afromentioned data.
+Now that we have named the tools and the aspects that we want to measure, here are central repositories containing the afromentioned data.
 
 ### Data sources specifically dedicated to aging
 
@@ -625,8 +231,250 @@ One of the central resources is [**HAGR** (Human Ageing Genomic Resources)](http
 * **[Jaspar](https://jaspar.genereg.net/)**—a database of transcription factor binding profiles.
 * **[KEGG](https://www.genome.jp/kegg/)**—a database of molecular pathway maps and categories.
 * **[UniProt](https://www.uniprot.org/)**—a database of protein sequence and functional information
-* **[AgeFactDB](http://agefactdb.jenage.de/)**—a database integrating GenAge and Lifespan Observation DB..
+* **[AgeFactDB](http://agefactdb.jenage.de/)**—a database integrating GenAge and Lifespan Observation DB.
 * **[AgeMap](http://cmgm.stanford.edu/~kimlab/aging_mouse/)**—a database integrating gene expression for aging in mice.
 * **[GiSAO](https://gisao.genome.tugraz.at/gisao_web/)**—a database  of genes involved in Senescence, Apoptosis and Oxidative Stress.
 * **[Aging Research Portfolio](http://agingportfolio.org/)**—a databse on aging research world wide.
-* **[UniProt](https://www.uniprot.org/)**—a database of protein sequence and functional information
+* **[UniProt](https://www.uniprot.org/)**—a database of protein sequence and functional information.
+* **[NeuroMuscleDB](https://pubmed.ncbi.nlm.nih.gov/30684219/)**—a database of Genes Associated with Muscle Development, Neuromuscular Diseases, Ageing, and Neurodegeneration.
+
+This [study](https://www.frontiersin.org/articles/10.3389/fgene.2021.689824/full#B19) here made a great outline and commentary of different databases and omics approaches.
+
+![](https://www.frontiersin.org/files/Articles/689824/fgene-12-689824-HTML/image_m/fgene-12-689824-g001.jpg)
+G stands for genomics; T for transcriptomics; P for proteomics; M for metabolomics; E for epigenomics; Ph for pharmacogenomics.
+
+Here is another overview of the table above:
+
+![](https://www.frontiersin.org/files/Articles/689824/fgene-12-689824-HTML/image_m/fgene-12-689824-t002.jpg)
+
+
+The **AgeFactDB**, also known as the JenAge Aging Factor Database, is a repository that collects and integrates aging phenotype data, including lifespan information (Hühne et al., 2014). The database focuses on "aging factors," which are genes, chemical compounds, environmental factors, or lifestyle factors (such as diet) that can affect lifespan and/or other aging phenotypes. In order to be included in the database, an aging factor must be compared to a control in at least two different experimental setups (for example, experiments with and without a chemical compound, experiments with different concentrations of a compound, experiments with dietary restriction or overfeeding compared to a normal diet, etc.). When an aging factor is defined, each piece of information linked to the effects of that factor is called an "observation" and represents evidence of its effects on aging. The AgeFactDB provides unique IDs to identify aging factors and observations (AF_nnnnnn and OB_nnnnnn, respectively).
+
+One major challenge in data integration is the fact that different data sources often have different data structures, which requires a large amount of manual curation to integrate them. The AgeFactDB attempts to address this challenge by providing aging phenotype information in two formats: Type 1, which includes observations within a single description, and Type 2, which separates lifespan data into different fields (e.g., lifespan effect, lifespan change, and lifespan value). Another important issue for all databases is data validation. By comparing a list of observations sorted by the percentage change in lifespan to a qualitative classification (increased, decreased, or no statistically significant effect), the AgeFactDB is able to identify a number of inconsistencies. The database can be accessed either by browsing through predefined lists or by searching using synonyms, PubMed IDs, and Medical Subject Headings, choosing among multiple source databases, specific types of aging-relevant evidence, or AgeFactDB IDs. More details are available in Hühne et al. (2014).
+
+The **MINDMAP** is a database infrastructure that promotes research on aging and manages the mental well-being and cognitive function of older individuals (Beenackers et al., 2018). Mental disorders in old age are associated with impairments in social functioning, decreased quality of life, and an increased risk of health problems and comorbidities, making them a key priority for public health policy and prevention (Whiteford et al., 2013). The aim of the database is to integrate urban environmental characteristics from longitudinal studies in 11 countries covering over 35 cities. The integration of these data is useful for evaluating the interaction between the environment and individual determinants of cognitive aging. The strength of the MINDMAP is its ability to combine data from multiple cities and from different sources (physical, social, and socioeconomic environmental characteristics, policy indicators), allowing for the identification of high-risk population subgroups and the study of relatively rare health conditions. As with other databases, the harmonization of data from different studies remains a key challenge: to harmonize all MINDMAP cohort studies, each research team focuses on a specific domain of information (e.g., socioeconomic variables, multimorbidities, health behavior variables, etc.). The database has restrictive data sharing rules, with a central server running RStudio allowing authenticated investigators to securely access firewall-protected data on primary and secondary data servers. More details are available in Beenackers et al. (2018).
+
+The **NeuroMuscleDB** is a database of genes associated with muscle development, neuromuscular diseases, aging, and neurodegeneration (Baig et al., 2019). The aim of the database is to help develop strategies to prevent muscle loss in the elderly, which is one of the major contributors to neuromuscular diseases and neurodegeneration and affects mortality in old age (Listrat et al., 2016). The database aims to help translate the findings of different studies into clinical interventions. To this end, NeuroMuscleDB integrates results from muscle-associated genes that are directly or indirectly involved in aging and age-associated neurodegenerative diseases. The database can be updated manually or systematically, by incorporating new data and resources. A strength of this database is that it also includes analytical tools for PCR primer design and sequence analysis to support the laboratory analysis of candidate genes and sequences. More details are available in Baig et al. (2019).
+
+Molecular studies on metabolic variations during aging can inform lifestyle changes and medical interventions aimed at improving healthspan and lifespan (Lorusso et al., 2018). However, none of the currently available aging-related databases are specialized in aging metabolomics. The **MetaboAgeDB** is a source of known age-related metabolic changes from studies of disease-free human cohorts (Bucaciuc Mracica et al., 2020). Aging-sensitive metabolites, extracted from well-known databases, are annotated with their chemical information, variations between age groups, and links to the metabolic pathways in which they are involved, including their effects on aging and the gender(s) in which these effects can be seen. This information is easily accessible through individual pages that include an "Age-variations" panel, in which gender-specific and method-specific metabolite variations are visually represented, grouped by the type of age-related variation. For each metabolite, a summary table provides an overview of the units of measurement, the method of detection, the age range and sex of the experimental group, and information about the pathways in which the metabolite is involved. In addition, the MetaboAge entry provides users with easy access to external links through a user-friendly web interface. More details are available in Bucaciuc Mracica et al. (2020).
+
+The **Human Ageing Genomic Resources (HAGR)** is a collection of databases and tools designed to help researchers interested in the genetics of human aging, integrating results from different approaches such as functional genomics, network analysis, systems biology, and evolutionary analysis. The project is supported and maintained by the Integrative Genomics of Ageing Group at the University of Liverpool in the United Kingdom. This big data repository is divided into several sections, which are briefly described below.
+
+A major resource within HAGR is **GenAge**, the database of genes related to longevity. It is divided into two sections: the section on human aging-related genes includes the few genes directly related to aging in humans, as well as the best candidate genes obtained from model organisms (yeast, worms, flies, mice, etc.), clustered according to functional groups (Tacutu et al., 2018). As of the last update in February 2020, the database included 307 human genes belonging to 15,054 Gene Ontology categories. The developers of GenAge claim to have constructed and analyzed the first protein network of human aging, as well as developed a system-level interpretation of aging.
+
+Complementary to GenAge is **LongevityMap**, a database of human genetic variants associated with longevity (Weber et al., 2016). LongevityMap is a repository of genetic association studies of longevity that includes both positive and negative association results to provide visitors with as much information as possible regarding each gene and variant previously studied in the context of longevity. Users can search LongevityMap by chromosome, by gene or genetic variant (e.g., refSNP number), by gene name or HGNC symbol, or by topic (such as age-related disease) in **LibAge** (Tacutu et al., 2013). LongevityMap also provides a link to **AnAge** (De Magalhães et al., 2009), the Database of Animal Aging and Longevity, a repository developed for comparative biology studies that provides researchers with quantitative data on life history and lifespan. The database, featuring over 4,000 species, contains life history records of organisms that are accessible through the AnAge browser and divided into three branches (animals, plants, and fungi). The most important trait in AnAge is maximum longevity, as it is the most widely used parameter for comparing rates of aging between species. Factors that can bias longevity records, such as population size and whether animals are kept in captivity, are also considered. Each entry has a qualifier indicating the confidence placed in the longevity data. This qualifier is based on the reliability of the original reference from which maximum longevity was obtained, the sample size, whether a given species has been studied and reproduces in captivity, and whether there are any conflicting reports. Confidence in the longevity data is hence classified as: "low" (only used for species without an established maximum longevity in AnAge), "questionable," "acceptable," and "high." The database can be queried or a zipped tab-delimited dataset of the latest stable build, containing only raw data, can be downloaded.
+
+**The Digital Aging Atlas (DAA)** is a centralized collection of aging changes and pathologies (Aging Atlas Consortium, 2021). Maintained by the Aging Atlas Consortium, the database integrates molecular, physiological, psychological, and pathological age-related data, including anatomical models. Although primarily focused on human aging, the DAA also includes supplementary mouse data, particularly gene expression data, to enhance and expand the information on human aging. The genetic information in the DAA is also extensive, with 2,599 human genes and 675 mouse genes linked to age-related diseases or traits.
+
+Authors of [this study](https://www.frontiersin.org/articles/10.3389/fgene.2021.689824/full#B19) conducted also parsing of the the **database of Genotypes and Phenotypes (dbGaP17)** and the **European Genome-Phenome Archive (EGA18)** which resulted in additional longevity data sources.
+
+The first repository we scanned for relevant data has been the **database of Genotypes and Phenotypes (dbGaP17)**. DbGaP includes data from sequencing studies and large-scale genomic studies, as well as genotype, phenotype, exposure, expression array, epigenomic, and pedigree data from GWAS. 
+
+**European Genome-Phenome Archive (EGA18)**. The EGA is an online repository for the storage and sharing of genetic and phenotypic data from biomedical studies.
+
+There in their [supplementary material 1](https://www.frontiersin.org/articles/10.3389/fgene.2021.689824/full#supplementary-material) they have outlined which additional data can be used to investigate aging related questions.
+
+One of the central tasks regarding the data above would be constructing an **integrative longevity graph database**, something along the lines that was done with the [PrimeKG](https://github.com/mims-harvard/PrimeKG) project. If one were to manage to integrate all the afromentioned data in a huge GraphDB, then it would be possible to investigate longevity in a personalized manner.
+
+With the specified databases, lets turn concretely on the individual (and integrated) omics approaches and see what kind of longevity related questions can be asked and answered.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/ryJRrpf/cell-measured.jpg" alt="cell-measured" border="0"></a>
+
+
+## Genomics approach in longevity
+
+![](https://cdn.medicalfuturist.com/wp-content/uploads/2018/10/Genomic-Big-Data-min.jpg)
+
+For a general overview of computational genomics, please refer to [this](https://compgenomr.github.io/book/) course.
+
+
+One of the main question we want to answer is: *What are genomic regions that have causal effect on aging (phenotype)?*
+
+To understand **Genome-wide association studies (GWAS)** from a computational perspective please refer to [this](https://incrementally.net/2022/07/16/genetic-association-studies-not-as-simple-as-you-might-think/) source.
+
+**Genome-wide association studies (GWAS)** are a common approach for examining the relationship between genetic variants and specific phenotypes. In these studies, genetic variants are determined for individuals from two groups: those with a specific phenotype, such as old age, and those without the phenotype. The frequencies of the observed variants are then compared between the groups and statistically tested for differences, which can suggest an association. The GWAS catalogue, which includes all published GWAS that test at least 100,000 single nucleotide polymorphisms (SNPs) and all SNP-trait associations with p-values less than 1 x 10^-5, provides a curated collection of these studies. These studies have successfully identified novel genes and pathways involved in various complex phenotypes in humans. A curated collection of all published GWAS that assay at least 100,000
+single nucleotide polymorphisms (SNPs) and all SNP-trait associations with p-values < 1 ∗ 10−5 (genome-wide suggestive threshold) are published in the GWAS catalogue
+(Hindorff et al., 2009, https://www.genome.gov/gwastudies/) (see Fig. 1.4 for the
+map on longevity).
+
+*Genome-wide association studies (GWAS)* have been used to examine the association of genetic variants across the entire genome of a species with a specific phenotype, such as old age. These studies have identified novel genes and pathways involved in complex phenotypes in humans. In GWAS, genetic variants are determined for individuals from two groups: those with the phenotype in question and those without the phenotype. The frequencies of the observed variants are compared between the groups and tested for differences, which can imply association. Based on twin and population studies, the genetic contribution to longevity in humans has been estimated to be 15-30%, with larger contributions to survival past 65 and 85 years at 36% and 40%, respectively (Murabito et al., 2012). However, these GWAS on longevity have only had limited success so far. 
+
+(FHS 100K) Framingham Heart Study 100K project (Lunetta et al.,
+2007), which found no SNPs reaching genome-wide significance (p-value < 5 ∗ 10−8), albeit a few with modest association. FHS analyzed the genetic data of over 100,000 participants. This study identified several genetic variants associated with longevity, but the effect sizes were small, and the variants only explained a small portion of the genetic contribution to longevity. Since then, several other GWAS studies have been conducted on longevity, but they have also had limited success in identifying genetic variants that are significantly associated with longevity.
+
+One reason for the limited success of GWAS studies on longevity is that the genetic basis of aging is complex and likely involves many different genes and pathways. In addition, the genetic contribution to longevity may vary among different populations and may be influenced by environmental factors. Therefore, it is likely that additional studies with larger sample sizes and more diverse populations will be needed to fully understand the genetic basis of aging and longevity.
+
+In 2013, Deelen et al. compared nonagenarians (people 90 years of age or older) with a younger population and identified the SNP rs2075650 in TOMM40 on chromosome 19 as the only genome-wide significant association (p=3.39 * 10^-17). They found that this SNP had a moderate link with nearby ApoE 4 (r^2 = 0.553) and could not find any APOE-independent effect on longevity. Therefore, they concluded that the effect of the SNP is mediated by APOE. Deelen et al. further expanded on this analysis by using sets of SNPs grouped by pathway in their GWAS, similar to the idea of comparing functionally enriched categories between transcriptomics experiments. Several methods for using sets of SNPs in GWAS analysis had already been developed.
+
+In 2013, Deelen et al. tested the association of two SNP sets with longevity: one set for the IIS pathway and the other for the telomere maintenance pathway. Four different tests consistently showed a significant association of both pathways with human longevity. Beekman et al. (2013) combined genome-wide association studies with genome-wide linkage analyses of long-lived siblings. The study identified four regions that showed linkage with longevity: 14q11.2, 17q11-q22, 19p13.3-p13.11, and 19q13.11-q13.32. The authors created a model that combined this information with a GWAS on a separate population. The combined model demonstrated that the associations of lifespan with the ApoE 4 and ApoE 2 alleles explain the linkage at 19q13.11-q13.32, while the other three linkage regions could not be explained by variants detected in the GWAS for longevity but may be interesting regions to investigate further.
+
+**Recent investigations include:**
+
+**Napolioni et al**. showed that consanguinity and autozygosity are associated with an increased risk of late-onset Alzheimer's Disease, even after controlling for educational attainment and APOE genotypes. They also identified a rare recessive variant in the RPH3AL gene in a group of consanguineous patients with LOAD. Podder et al. used data from several species to identify pathways involved in aging, confirming the role of FoxO signaling, mTOR signaling, and autophagy. They also found that the target proteins of the drug rapamycin were conserved across all four species. **Treaster et al.** reviewed the use of comparative genomics in understanding the genetic basis of age-related diseases and longevity. **Mohammadnejad et al.** applied a regulatory network analysis to a group of monozygotic twins to identify genes associated with cognitive function, finding five novel genes and dysregulation in ribosome function and focal adhesion as key pathways in neurodegeneration.
+
+Investigations on this front are further [ongoing](https://pubmed.ncbi.nlm.nih.gov/31413261/), and some computational issues with GWAS are outlined [here](https://incrementally.net/2022/07/14/understanding-the-genetic-basis-of-the-human-condition-16-analytical-challenges/):
+
+![](https://incrementally.net/wp-content/uploads/2022/07/image-768x667.png)
+
+
+**One interesting data investigation would be the inclusion of the pangenome.**
+
+Inital human genome sequencing wasnt complete, it only covered heterochormatic regions 92% (easier to access) and it didnt touch euchromatin. See [here](https://centuryofbio.substack.com/p/completing-the-human-genome) for details.
+
+ What if we could conduct analysis on the [pangenome](https://www.biorxiv.org/content/10.1101/2022.07.09.499321v1), a genome that would account for much broader specter of the population and with that reduce potential errors that arrise from use the standard reference genome?
+
+"*Using our draft pangenome to analyze short-read data reduces errors when discovering small variants by 34% and boosts the detected structural variants per haplotype by 104% compared to GRCh38-based workflows, and by 34% compared to using previous diversity sets of genome assemblies.*"
+
+Repeating and applying some of the computational analysis might elucidate patterns that werent available in the standard reference genome.
+
+**So what can we concluding regarding genomics approach in longevity?**
+
+Longevity is a trait that is heritable to some extent, with estimates ranging from 10-30% depending on the factors that are controlled for (Graham Ruby et al. 2018). While examining the role of genetics in longevity, researchers have found that the variance explained is lower, at around 8% (Wright et al. 2019). **If you are interested in exploring the potential effects of genetics on your own longevity, you can upload your sequenced genome data to Promethease and search for SNPs (single nucleotide polymorphisms) associated with longevity**. Some SNPs, such as rs2802292 and rs2802288, have been shown to increase the odds of living to 100 by up to 1.5 to 3 times, but these effects may vary in different populations. One potential approach to increasing lifespan is to genetically engineer embryos to have beneficial alleles of these SNPs.
+
+
+
+
+## Epigenomics approach in longevity
+
+![](https://www.genome.gov/sites/default/files/inline-images/Epigenomics_Fact-sheet2020.jpg)
+
+
+Epigenetic changes are essential for normal biological functioning and can affect natural cycles of cellular death, renewal, and senescence. Lifestyle and behavioral factors such as diet, sleep, exercise, smoking, and alcohol consumption can also affect the composition and location of chemical groups that bind to our DNA. Environmental factors such as stress, trauma, and even neighborhoods or zip codes may also have an impact.
+
+Ageing-associated epigenetic changes include **DNA methylation**, **histone modifications** and **chromatin remodelling**, which together contribute to a general loss of heterochromatin in aged cells.
+
+One of the more prominent examples of epigenomics data is DNA methylation. DNA methylation is the most studied epigenetic mark involved in various processes in human cells, including gene regulation and the development of diseases such as cancer. An increasing number of DNA methylation sequencing datasets from the human genome are produced using various platforms, from methylated DNA precipitation to whole genome bisulfite sequencing. Many of these datasets are fully accessible for repeated analyses.
+
+Consult [this](http://gero.usc.edu/labs/benayounlab/files/2018/06/Ucar-18-Chapter.pdf) free online book a comprehensive overview.
+
+**The most prominent example of computational epigenetics in aging are the epigenetic clocks**. [Epigenetic clocks](https://en.wikipedia.org/wiki/Epigenetic_clock) are powerful biomarkers based on DNA methylation that were developed to track aging in population studies, clinical trials, and personal health applications.
+
+## Transcriptomics approach in longevity
+
+![](https://cdn.kastatic.org/ka-perseus-images/20ce29384b2e7ff0cdea72acaa5b1dbd7287ab00.png)
+
+As with previous elements, as we are moving through the central dogma of biology and encountering different steps in the processes, we are quantifying them. Here, concretely, we have defined what transcriptomics is, but what does it mean to quantify it?
+
+**Quantifying transcriptomics means quantifying [gene expression](https://en.wikipedia.org/wiki/Gene_expression).**
+
+Another definition that we need when performing statistical analyis on gene expression:
+
+A gene is declared **differentially expressed** if an observed difference or change in read counts or expression levels between two experimental conditions is statistically significant.
+
+Gene expression analysis has been widely used in research on aging (Girardot et al., 2006; McElwee et al., 2007; Pletcher et al., 2002; Selman et al., 2009; Zahn et al., 2007) due to the widespread availability and decreasing cost of microarrays. However, RNA sequencing, which has increased sensitivity, is gaining popularity and is expected to replace microarrays in the future. Currently, the higher costs and less established protocols for RNA sequencing are limiting its use. In microarray experiments, the goal is to identify differences in gene expression between two or more conditions, such as normal and disease, different ages, or long-lived and normal-lived cohorts. RNA is prepared and hybridized to the arrays, and raw binding data is read out using fluorescence imaging. The images are then converted into numerical readouts and analyzed using bioinformatics (detailed in Gentleman et al. (2005, chapters 2, 4, 12-15)). Briefly, the raw numerical readout is background-corrected and normalized within the array and among arrays to eliminate unspecific binding, differences in array production, and other undesired factors, such as different fluorescence properties of the dye. Differentially expressed genes and their statistical significance are then determined using a linear model followed by empirical Bayes analysis, which is implemented in the R package limma (Smyth, 2005).
+
+One example of using gene expression analysis in aging research is comparing two well-known long-lived mutant mice strains (Ames dwarf mice Prop1df/df and Little mice Ghrhrlit/lit) with the WT or heterozygote state, respectively (Amador-Noguez et al., 2004). Using an ANOVA with a p-value ≤ 0.0001, the authors found 1125 and 1152 differentially expressed genes between mutant and control for each strain, respectively. 552 of these genes overlapped between the two mutants. In another study, Landis et al. (2012) used microarrays to study changes in gene expression during aging and in response to various types of stress, including heat stress, oxidative stress, and ionizing radiation. The authors then examined the overlap of these changes and found 18 genes that were upregulated across all conditions. In a different approach, Spindler & Mote (2007) used microarray profiles to compare long-term and short-term DR to the effect of glucoregulatory drugs. They found that metformin produced a similar expression profile to DR in mice and suggested that expression profiles could be used as an easier way of screening drugs compared to lifespan studies.
+
+
+Functional enrichment analysis and motif analysis are two common approaches used to summarize and interpret large lists of differentially expressed genes. Functional enrichment analysis searches for overrepresented gene annotations, such as GO terms or disease-associations, among the differentially expressed genes compared to the background. Tools such as Catmap (Breslin et al., 2004) and online services such as DAVID (Huang et al., 2009) are readily available for this type of analysis and have been applied in various cases, including comparative studies. Motif analysis, on the other hand, groups genes based on joint transcriptional regulation by the same transcription factor, indicated by shared binding motifs. A list of differentially expressed genes can be searched for over- or under-represented motifs from databases of known motifs, or attempts can be made to identify motifs ab initio. Library-based methods, such as Clover (Frith et al., 2004), are sensitive in detecting weak motifs and include information on which transcription factor corresponds to which motif, if this is known. Ab initio methods, such as NestedMICA (Dogruel et al., 2008), are less sensitive but have the potential to discover novel motifs. An example of a motif analysis is the study of three long-lived mutants (sch9 Δ, ras2 Δ, and tor1 Δ) and wild-type yeast (Cheng et al., 2007), where the authors found a number of enriched motifs, including those that correspond to the transcription factors Fhl1 and Gis1. These transcription factors regulate the expression of ribosomal protein genes and stress-response genes, respectively.
+
+Same as for epigenetics, gene expression [can be used](https://www.frontiersin.org/articles/10.3389/fgene.2020.01025/full) to infer (biological) age.
+
+## Proteomics approach in longevity
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZiGDKTDHA--vyio7qTW6TrjJ_b6SLkLBEDQ&usqp=CAU)
+
+Proteomics and metabolomics are the profiling of protein and metabolite levels, respectively, using advanced mass spectrometry. In proteomics, the focus can be on different aspects such as relative protein concentrations, protein modifications, and complex formation. Proteomics studies for questions of research on ageing are relatively rare, but their number is increasing (reviewed by Schiffer et al., 2009; Sharov & Schoneich, 2007). One example is the analysis of changes in protein concentration in the long-lived daf-2 mutants in C. elegans (Jones et al., 2010). The authors found changes for proteins related to cellular maintenance and detoxification processes, in agreement with previous transcriptional analyses. A recent study by Depuydt et al. (2013) also analyzed the protein changes in daf-2 mutant in C. elegans and found that general protein synthesis levels, and in particular the abundance of ribosomal subunits, decreased. Interestingly, their analyses found that ribosomal transcript levels were not correlated to actual protein abundance, suggesting that post-transcriptional regulation would determine ribosome content and highlighting the uncertainties in general agreement between transcriptomics and proteomics analyses. Another example of a proteomics study is the study by Robinson et al. (2010), which examined changes in the proteome of Drosophila males reared at two different temperatures over their lifespan. Using liquid chromatography and tandem mass spectrometry, the authors found 33 proteins that shared similar patterns when using scaling time points according to the group's lifespan, instead of the absolute time points.
+
+
+For the most recent advances of proteomics and involvement in Aging look [here](https://pubmed.ncbi.nlm.nih.gov/33730416/).
+
+## Metabolomics approach in longevity 
+
+![](https://www.mtidx.com/public/uploads/images/mti_metabolomics/1578509820-640w_mti_metabolomics.jpg)
+
+Metabolomics studies on ageing have been conducted to explore the role of metabolites such as glucose and oxygen species in ageing. An example is the analysis of membrane phospholipid composition in long-lived naked mole rats compared to short-lived mice (Mitchell et al., 2007). The statistical analysis of mass spectrometry measurements indicated marked differences between the two species, such as lower levels of docosahexaenoic acid containing phospholipids, which suggests a lower susceptibility to peroxidative damage in membranes of naked mole-rats compared to mice. Yoshida et al. (2010) used metabolic profiling of various yeast mutants and discovered a correlation between the metabolic profiles and yeast replicative lifespan. They further developed a multi-variate model based on the metabolic profiles to predict yeast replicative lifespan. This model allows screening for lifespan mutants in yeast using metabolic profiles as the readout. Using nuclear magnetic resonance, Fuchs et al. (2010) examined the metabolome of various longevity mutants of C. elegans, including daf-2, and found a common metabolic signature, which might indicate that there are hidden connections among diverse longevity mechanisms.
+
+
+For the most recent advances of Metabolomics Signatures of Aging look [here](https://pubmed.ncbi.nlm.nih.gov/33815888/).
+
+Now the question is, how can we reconcile all of these omic approaches, and tackle aging related questions in an unified manner?
+
+
+## Multi-omics approach in longevity
+
+![](https://www.researchgate.net/profile/Ashok-Kumar-T-2/publication/320324303/figure/fig1/AS:549025272090629@1507909233497/An-illustration-of-multi-omics-data-integration-through-integrative-systems-biology.png)
+
+Aging is considered a multi-factorial trait, highly heterogenous from a genomics point of view, characterized by different levels of complexity ranging from molecular to cellular, organ and organism (Cevenini et al., 2010): in order to be investigated properly, this complexity requires a systems-biology and -omics approach where the integration of multiple data becomes essential.
+
+As already noted, [Aging Atlas](https://ngdc.cncb.ac.cn/aging/index) is a database containing multi-omic data. Good thing about this work is that it not only contains different omics, but allows one to upload, interactively query, jointly analyze, and visualize aging-related omics or single-cell sequencing data.
+
+Omics analysis is a useful technique for investigating the molecular basis of aging. By combining different omics data sets, such as gene expression analysis and genome variations, researchers can gain a more comprehensive understanding of the aging process. For instance, in a study by Wheeler et al. (2009), gene expression in human kidney cells was examined and 630 age-dependent genes were identified, 101 of which contained expression-associated SNPs. This two-staged approach enabled the researchers to detect significant effects more sensitively.
+
+Another example of combining omics data sets is a study by Selman et al. (2006) that used gene expression transcriptomics and metabonomics to investigate the effects of acute dietary restriction in mice. The expression profiles, along with blood plasma metabonomic profiles, indicated that mice undergoing acute dietary restriction rapidly adopted many of the transcriptional and metabolic changes associated with long-term dietary restriction.
+
+The genome of the naked mole rat, a long-lived rodent with a lifespan of more than 30 years, has been sequenced using next-generation sequencing (Kim et al. 2011). This animal has several remarkable characteristics, including negligible senescence, no age-related increase in mortality, high fecundity until death, and resistance to spontaneous and induced cancers. The study by Kim et al. (2011) not only sequenced and assembled the genome, but also predicted genes and gene functions, and analyzed lost and gained genes and their functional categories. Gene expression was measured in brain, liver, and kidney at three different ages using RNA-seq, and differential gene expression analysis revealed few changes between young and old adults compared to other mammals. Overall, the genome and transcriptome data showed distinct patterns of naked mole rat genes compared to humans, mice, and rats, and these patterns may include genes that are important for their different lifespans. For example, the lower expression of IIS genes in the liver of naked mole rats compared to mice may play a role in their longer lifespan.
+
+**Cohort Aging Studies Collecting Omics Data**
+
+A comprehensive overview of all longitudinal studies of aging can be found [here](ncbi.nlm.nih.gov/pmc/articles/PMC3135270/).
+
+Longitudinal studies involving the collection of large cohorts of individuals are currently being used to investigate the determinants of aging. Over 70 community-based cohort studies have been conducted, most of them in North America or Northern Europe, and 51 of them have been approved by the National Institute on Aging (NIA) ([see](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3135270/)) for a complete list). These studies typically include either exclusively elderly individuals or individuals who are at least 50 years old at the time of enrollment, and follow them until their death, with an average follow-up period of 10 years. The collected data typically includes information on family composition, employment, and economic status (socio-demographic variables), self-reported chronic diseases, and functional status, as determined through anthropometric measures and tests of physical performance, measures of cognition, and, in about 60% of the studies, the collection of biological samples. Approximately one third of all the studies also conduct genetic analyses (Seematter-Bagnoud and Santos-Eggimann, 2006). A review of major ongoing cohort and longitudinal studies can be found in Stanziano et al. (2010).
+
+Some of the examples can be seend underneath:
+
+![](https://www.frontiersin.org/files/Articles/689824/fgene-12-689824-HTML/image_m/fgene-12-689824-t001.jpg)
+
+Interesting question would be, can you integrate all of these different studies together, estimate based on the ground truth biological age, which novel biomarkers might be highly relevant for aging.
+This recent study this exactly this, and the results identified protactive biomarkers against aging, more on it [here](https://link.springer.com/article/10.1007/s11357-021-00334-0). There they did integration of lifestyle, laboratory and clinical data. This approach allowed the processing of more than 30 thousand omics markers, confirming and expanding the understanding of mechanisms involved in frailty.
+
+
+There is one important remark here. Actually asking questions about longevity boils down to asking questions about biology. Hence one of the core issues, such as batch effects, learning joint modalities, etc. become highly important if one were even to start posing longevity related questions.
+
+Said in another words, in order to find meaningfull answers to the questions of the type:
+
+> *How to integrate longitudinal and spatial multi-omics data to determine biological age?*
+
+One needs to start adressing the data science problems inherent to single cell (multi-omics)  data source.
+
+
+
+[Eleven grand challenges in single-cell data science](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1926-6) names them, and starting there and repurposing the solutions to elucidate certain hallmark seems like a good way to go.
+
+## Network biology approach in longevity
+
+![](https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fnrg1272/MediaObjects/41576_2004_Article_BFnrg1272_Fig2_HTML.jpg?as=webp)
+
+The premise is that with the explosion of data and the complex intrecacies of the relationships between all of the different (multi-omics) datasets, there needs to be a quantitative way to represent and find these networks of relationship.
+
+In the database chapter I outlined the possibility of building a longevity knowledge graph. If and once this is done, [linking a Graph database and software operating on graph structures](https://blog.vaticle.com/link-prediction-knowledge-graph-pytorch-geometric-f35917320806) would allow to pose different node/edge level questions.  
+
+Large-scale consortium-based efforts looking at the various aspects of human biology have allowed the application of network-based methods to uncover new insights into the molecular mechanisms of the given phenotype, such as tissue specificity or disease context.
+
+Examples of real world biological networks:
+
+* **Protein-Protein Interaction Networks (PPIs)**
+This type of networks holds information about how different proteins operate with each other to enable a biological process within a cell. The interactions in a PPI network can be physical or predicted. Notably, a whole interactome can capture all PPIs happening in a cell or an organism. In vivo and in vitro methods for detecting PPIs include: X-ray crystallography, NMR, tandem affinity purification (TAP), affinity chromatography, coimmunoprecipitation, protein arrays, protein fragment complementation, phage display and yeast two-hybrid (Y2H). Widely used repositories (Lehne and Schlitt, 2009; Szklarczyk and Jensen, 2015) which host PPIs for various organisms are the BioGRID (Stark et al., 2006), MINT (Chatr-aryamontri et al., 2007), BIND (Bader et al., 2003), DIP (Xenarios et al., 2000), IntAct (Hermjakob et al., 2004a), and HPRD (Peri et al., 2003) database. Concerning topology, the PPI networks follow a small-world property and are scale-free networks. Central hubs often represent evolutionarily conserved proteins, whereas cliques (fully connected subgraphs) have been found to have a high functional significance (Spirin and Mirny, 2003).
+
+* **Sequence Similarity Networks (SSNs)**
+These networks consist of nodes representing proteins or genes and edges capturing the sequence similarity between amino acid or nucleotide sequences. Widely used tools (Ekre and Mante, 2016) for obtaining a sequence similarity between two sequences are the BLAST (Altschul et al., 1990), LAST (Kiełbasa et al., 2011), and FASTA3 suite (Pearson, 2000), which contains SSEARCH, GGSEARCH, GLSEARCH executables of Smith-Waterman (Smith and Waterman, 1981) and Needleman-Wunsch (Needleman and Wunsch, 1970) implementations for local and global sequence alignment. These networks are weighted, have a small-world and scale-free topology and often contain hubs. Often, clustering algorithms are applied on such networks for the detection of protein families. Like in PPIs, proteins that lie together in such networks are more likely to have similar functions or be involved in similar biological processes (Sharan et al., 2007). While it is not straightforward to come to a conclusion about their density, when coping with fragmented sequences (e.g., alignments of predicted proteins from metagenomes), the networks are rather sparse.
+
+* **Gene Regulatory Networks**
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/c4/Gene_Regulatory_Network.jpg)
+
+A gene (or genetic) regulatory network (GRN) is a collection of molecular regulators that interact with each other and with other substances in the cell to govern the gene expression levels of mRNA and proteins which, in turn, determine the function of the cell.
+They are collections of regulatory relationships between transcription factors (TFs) and TF-binding sites or between genes and their regulators. Normally, these networks are directed, dynamic, and can be visualized as bipartite graphs. In such networks, most nodes have only a few interactions and only a few hubs come with a higher connectivity degree. In any case, such networks follow a power law degree distribution (scale-free) p(k) ~ k−γ, γ ≈ 2 (Vázquez et al., 2004). Among a variety of databases hosting information about gene regulation, widely used repositories are the KEGG (Kanehisa and Goto, 2000), GTRD (Yevshin et al., 2019), TRANSFAC (Matys et al., 2003), TRRUST (Han et al., 2018).
+
+* **Signal Transduction Networks**
+These networks capture cell signaling or otherwise the transmission of molecular signals as well as a series of molecular events within a cell or from the exterior to its interior (Fabregat et al., 2018). A signal transduction network normally consists of several thousand nodes and edges representing a series of reactions. These networks are mostly directed and sparse. They follow a power law degree distribution as well as small-world properties. While such data can be found in well-known pathway databases (KEGG, Reactome), specialized repositories such as the MiST (signal transduction in microbes) (Ulrich and Zhulin, 2007), NetPath (Kandasamy et al., 2010), or Human-gpDB (Satagopam et al., 2010) also exist.
+
+* **Metabolic Networks**
+They are networks consisting of metabolites (nodes) and their interactions in an organism. Metabolites can be either smaller molecules such as amino acids or larger macromolecules like polysaccharides. These networks are usually directed graphs and can be represented as Petri nets (Reisig, 1985; Chaouiya, 2007). They are scale-free, they carry small-world properties (Jeong et al., 2000) and can often be organized using hierarchies (Gagneur et al., 2003). In order to gain insights into their decomposition, heuristic modularity optimization over all possible divisions to find the best one is required (Newman and Girvan, 2004). KEGG and Reactome databases are two of the most widely used repositories for this type of network.
+
+* **Gene Co-expression Networks**
+They are undirected weighted networks where two nodes (genes) are connected if there is a significant co-expression between them. Such networks are usually constructed using data from high-throughput technologies such as Microarrays, RNA-Seq or scRNA-seq. For each pairwise connection, a metric like for example, the Pearson Correlation Coefficient (PCC) (Kirch, 2008) can be used to calculate an edge's weight. Often, a threshold or a Z-score are applied on the whole network in order to accept correlations above a certain cutoff. Otherwise the network would look like a fully connected clique. After the threshold and depending on the total clustering coefficient, the network can be clustered to detect functional modules. One typical example is the ribosomal genes which tend to group together due to similar expression patterns. Expression data for such analyses can be found in widely used repositories such as GEO (Barrett et al., 2013) or ArrayExpress (Parkinson et al., 2007). Notably, Arena-Idb (Bonnici et al., 2018) repository can be used for human non-coding RNAs interactions.
+
+
+
+Potential applications of network biology:
+
+* **Clustering** --- finding families and centralities inside big graphs
+* **Network Alignment** --- In today's multi-Omics era, integration of heterogeneous information (e.g., transcriptomics, proteomics, metabolomics, etc.) in a multi-layered network structure is becoming a trend. Additionally, methods to directly compare networks and their topological features are gaining ground. To address these issues, network alignment, or alternatively graph isomorphism approaches can be used. Notably, graph alignment is not a trivial task as it is computationally expensive and has been characterized as NP-complete (Zampelli et al., 2010). The concept behind network alignment is to highlight conserved or missing nodes and edges across two (pairwise) or more (multiple) networks.
+* **Link prediction** --- Besides network alignment, predicting link changes in a single network has recently drawn attention in the biomedical field. Link prediction might concern the creation of future edges or the identification of missing links (e.g., incomplete data). While link prediction techniques are widely used by social media, in biological networks, they have also been used to identify potential drug side effects, protein-protein interactions, disease phenotypes based on molecular information and phylogenetic relations. For example, its application on bipartite graphs has unraveled new drug-target interactions (Kunegis et al., 2013).
+* **Network Perturbation** --- In biology, direct comparisons between a disease and a healthy state are very common, thus making the study of molecular changes essential. Therefore, at a network level, changes between such states are considered as biological network perturbations. In network medicine, a network's topology can be used as the backbone to further predict side effects in a system even at a 65–80% success rate (Santolini and Barabási, 2018).
+
+How to construct and the perform graph topology analysis in order to extract insight:
+
+ ![](https://i.postimg.cc/L6nvxfmP/Screenshot-2022-04-20-075723.jpg)
+
