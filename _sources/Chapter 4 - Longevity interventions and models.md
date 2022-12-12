@@ -1,28 +1,20 @@
 # Chapter 4 - Longevity interventions and models
 
-We need a way to classify all of the therapeutic interventions. Here we will outline interventions, that have been shown to work in any organism, based on:
+We need a way to classify all of the therapeutic interventions. Here we will outline interventions, pathways and organisms that have been shown to be relevant for aging.
 
-* Genetic and molecular pathway basis
-* Chemical basis
-* Environmental basis
-* Alternative longevity interventions 
-* Model organisms of aging and its alternatives
+Contents of this chapter are:
 
-
-## Genetics and molecular pathways involved in ageing
-
-### Genetics
+* Molecular pathways involved in the aging process.
+* Chemical basis for longevity.
+* Environmental basis for longevity.
+* Alternative (less known and researched) longevity interventions.
+* Model organisms of aging and its alternatives.
 
 
-As with everything else, longevity is heritable, but not as much as one would expect, just around 10-30% in the most recent estimates, depending what you control for (Graham Ruby et al. 2018). As for looking at genes directly, of course the variance explained is lower ("missing heritability"), at around 8% (Wright et al., 2019). If you are curious about your own case, you can upload your sequenced genome data to Promethease, search for 'longevity' and it will search and sort results from SNPedia for you, or you can manually have a look here. The effects seem incredibly large, e,g having the right allele of rs2802292 will up to triple your odds to live to 100 years, rs2802288 increases odds of living to 100 by 1.5x, at least in the populations tested.
+## Molecular pathways involved in the aging process
 
-Thus one option to lengthen lifespan is to genetically engineer embryos to have the beneficial alleles of these SNPs (SNP being a position in the genome where there are at least two variants in more than 1% of the population. We are 99.9% genetically equal, so SNPs is a way to look at those genes that makes us different)
-
-### Molecular pathways involved in ageing
 
 A biological pathway is a series of actions among molecules in a cell that leads to a certain product or a change in the cell.
-
-So we have a bunch of proteins in the cells moving around and bumping into each other. Their shape and molecular composition will influence if they will do anything interesting. For example if you put in a vat some hTERT (The protein made by TERT) and hTR (The RNA made by TERC), they will spontaneously combine to form telomerase. In some cases this reactions require organic catalysts - enzymes - and the enzymes in turn sometimes need other molecules (co-factors) to actually be active.
 
 In cells, there exist defined ways in which proteins react with each other in many ways: Proteins can combine to form larger structures, they can change conformation (shape), react to split into smaller proteins, etc. These usually happen in defined networks, or pathways, which can also feature loops, causing negative or positive feedback, enabling various forms of homeostasis.
 
@@ -30,10 +22,10 @@ In cells, there exist defined ways in which proteins react with each other in ma
 
 Examples of pathways known to have effect on longevity.
 
-* mTOR/AMPK
-* IGF-1/PI3K/FOXO
-* Klotho and NRF2
-* Sirtuins
+* **mTOR/AMPK**
+* **IGF-1/PI3K/FOXO**
+* **Klotho and NRF2**
+* **Sirtuins**
 
 **mTOR/AMPK**
 
@@ -222,6 +214,9 @@ There are many ways to reprogram cells: Some are "integrating" (They cause perma
 Oddly, senescent cell's SASP make it easier for neighbouring cells to be reprogrammed, so perhaps reprogramming followed by senolysis would have synergistic effects (Ofenbauer & Tursun, 2019).
 
 For a great detailed overview have a look [here](https://www.adanguyenx.com/blog/partial-reprogramming). Or a recent paper [here](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(22)00025-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0167779922000257%3Fshowall%3Dtrue). Tackling this problem with machine learning is already underway and [companies](https://www.shiftbioscience.com/) are trying to find novel factors and their combinations that could make a difference.
+
+Note that combining multiple therpies might even have better effects: [Combining Stem Cell Rejuvenation and Senescence Targeting to Synergistically Extend Lifespan](https://www.biorxiv.org/content/10.1101/2022.04.21.488994v1)
+
 
 ##  Environmental effects on ageing
 
