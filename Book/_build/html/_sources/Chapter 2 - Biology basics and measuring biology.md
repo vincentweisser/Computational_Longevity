@@ -128,7 +128,7 @@ Senescent cells are a type of damaged cell that have entered a state of arrest a
 
 # Quantifying biological research in longevity
 
-Once we have a very basic understanding of basic unit of life, the cell, the interesting question becomes:
+Once we have a very basic understanding of basic unit of life, the cell, next interesting question becomes:
 
 > *What can we measure about different processes happening inside of the cell?*
 
@@ -266,7 +266,7 @@ Complementary to GenAge is **LongevityMap**, a database of human genetic variant
 
 **The Digital Aging Atlas (DAA)** is a centralized collection of aging changes and pathologies (Aging Atlas Consortium, 2021). Maintained by the Aging Atlas Consortium, the database integrates molecular, physiological, psychological, and pathological age-related data, including anatomical models. Although primarily focused on human aging, the DAA also includes supplementary mouse data, particularly gene expression data, to enhance and expand the information on human aging. The genetic information in the DAA is also extensive, with 2,599 human genes and 675 mouse genes linked to age-related diseases or traits.
 
-Authors of [this study](https://www.frontiersin.org/articles/10.3389/fgene.2021.689824/full#B19) conducted also parsing of the the **database of Genotypes and Phenotypes (dbGaP17)** and the **European Genome-Phenome Archive (EGA18)** which resulted in additional longevity data sources.
+Authors of [this study](https://www.frontiersin.org/articles/10.3389/fgene.2021.689824/full#B19) conducted also the parsing of the the **database of Genotypes and Phenotypes (dbGaP17)** and the **European Genome-Phenome Archive (EGA18)** which resulted in additional longevity data sources.
 
 The first repository we scanned for relevant data has been the **database of Genotypes and Phenotypes (dbGaP17)**. DbGaP includes data from sequencing studies and large-scale genomic studies, as well as genotype, phenotype, exposure, expression array, epigenomic, and pedigree data from GWAS. 
 

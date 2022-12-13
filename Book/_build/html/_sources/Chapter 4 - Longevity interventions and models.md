@@ -22,12 +22,12 @@ In cells, there exist defined ways in which proteins react with each other in ma
 
 Examples of pathways known to have effect on longevity.
 
-* **mTOR/AMPK**
-* **IGF-1/PI3K/FOXO**
-* **Klotho and NRF2**
-* **Sirtuins**
+* **1. mTOR/AMPK**
+* **2. IGF-1/PI3K/FOXO**
+* **3 .Klotho and NRF2**
+* **4. Sirtuins**
 
-**mTOR/AMPK**
+**1. mTOR/AMPK**
 
 The mammalian target of **rapamycin** (mTOR), also referred to as the mechanistic target of rapamycin, and sometimes called FK506-binding protein 12-rapamycin-associated protein 1 (FRAP1), is a kinase that in humans is encoded by the MTOR gene. mTOR is a member of the phosphatidylinositol 3-kinase-related kinase family of protein kinases.
 
@@ -59,7 +59,7 @@ What is the rapamycin? The most prominent mTOR inhibitor, capable of downregulat
 * etc.
 
 
-**IGF-1/PI3K/FOXO**
+**2. IGF-1/PI3K/FOXO**
 
 There are 2 possibilities (left and right picture) that trigger the IGF-1 pathway. The first one (left) in times of favorable conditions activates the hypothalamus and triggers the release of growth hormone in the blood stream. Which again triggers the production of insulin like IGF-1 in the liver. 
 
@@ -73,20 +73,18 @@ On the other hand, if we induce moderate stress as in the right picture, the bod
 
 <a href="https://ibb.co/XsQ4574"><img src="https://i.ibb.co/7Wfzpnz/Screenshot-2022-03-08-151304.jpg" alt="Screenshot-2022-03-08-151304" border="0"></a>
 
-**Klotho**
+**3. Klotho**
 
 Klotho is an enzyme that in humans is encoded by the KL gene. There are three subfamilies of klotho: α-klotho, β-klotho, and γ-klotho. 
 
-Underexpression reduces mice lifespan.
+The way it works, is that underexpression reduces mice lifespan and the overexpression increases mice lifespan.
 
-Overexpression increases mice lifespan.
-
-As saw in the picture, the inhibition or the activation activates the pathways that have lifespan reducing or lifespan expanding effects.
+As visible in the picture, the inhibition or the activation activates the pathways that have lifespan reducing or lifespan expanding effects.
 
 <a href="https://ibb.co/hMhn17r"><img src="https://i.ibb.co/PY3bzmJ/12345.jpg" alt="12345" border="0"></a>
 
 
-**Sirtuins and NAD+**
+**4. Sirtuins and NAD+**
 
 NAD+ is a cofactor, or a “helper molecule,” for a large class of deacetylases called **sirtuins** and **PARPs** (poly (ADP-ribose) polymerase)
 
@@ -120,6 +118,10 @@ Tricking mice into thinking that they are colder than they are also has positive
 
 ## Chemistry of ageing
 
+<a href="https://ibb.co/6XCXgVT"><img src="https://i.ibb.co/PDHDw3P/longevity-drugs.jpg" alt="longevity-drugs" border="0"></a>
+
+As JPM [noted](https://www.sciencedirect.com/science/article/abs/pii/S1359644621000982), the number of longevity drugs is growing exponentially.
+
 In experiments on
 chemical modulation of ageing, it is important to check that effects are robust against
 different common conditions and strains. Moreover, it needs to be established that the
@@ -131,7 +133,7 @@ In order to test these drugs we need a standardised protocol. Almost 20 years ag
 
 The ITP is an attempt to standardize and simplify not just how we measure the effects of these interventions on mice, but also what we measure. Sometimes, researchers run dozens of tests and try dozens of metrics with the goal of obtaining a positive result that they can publish to great fanfare. The ITP, on the other hand, was designed to provide an answer to one simple question: does the intervention extend lifespan in genetically heterogeneous mice? And since a major goal of the project is to provide critical tests of anti-aging approaches, all data is published, including negative results.
 
-Aging has the NIA Interventions Testing Program, or ITP (Nadon et al., 2017) where they test the same thing in three labs with larger sample sizes and rigid experimental protocols. Their stage one uses around 100 mice per group, while their more rigorous second stage tests use up to 500 mice across all the labs per group. This testing has revealed as of 2017 six compounds that extend life in mice. Some of them only worked on males, others on both male and female mice, and in those the effect by gender were different. Consult [this](https://medium.com/apollo-ventures-insights/the-most-promising-longevity-drugs-to-date-fb7742177527) source for a more comprehensive overview.
+Aging has the NIA *Interventions Testing Program, or ITP* (Nadon et al., 2017) where they test the same thing in three labs with larger sample sizes and rigid experimental protocols. Their stage one uses around 100 mice per group, while their more rigorous second stage tests use up to 500 mice across all the labs per group. This testing has revealed as of 2017 six compounds that extend life in mice. Some of them only worked on males, others on both male and female mice, and in those the effect by gender were different. Consult [this](https://medium.com/apollo-ventures-insights/the-most-promising-longevity-drugs-to-date-fb7742177527) source for a more comprehensive overview.
 
 ![](https://miro.medium.com/max/1400/1*5jDjHTVs2Cc_QPymWypguQ.jpeg)
 
@@ -146,19 +148,18 @@ Studies with longevity effects limited to ITP outcomes:
 * Canagliflozin [another anti-diabetic drug similiar to Acarbose]
 * 17-α Estradiol [weak estrogen and a potent 5-α reductase inhibitor, 17-α estradiol has been shown to improve metabolic function, enhance insulin sensitivity and reduce fat and inflammation in old male mice without causing feminization]
 * *Senolytics*- senescent cells accumulate and this is negative due to the SASP, let's just get rid of them.
-
-![](https://nintil.com/images/2020-01-05-longevity/image-20200116074410927.png)
-
-
 * *Sirtuin activating compounds (STACs)* - general category, under which resveratrol fall under, they are usually paired with NAD boosters (Most commonly, nicotinamide riboside (NR) less commonly nicotinamide mononucleotide (NMN)), to get extra NAD+ to fuel the increase in sirtuin activation.
-
-
 
 Studies that **failed** ITP outcomes:
 
 * Metformin [*As noted in pathways of aging chapter.*]
 * Resveratrol [Islam MS, et al. *Effect of the Resveratrol Rice DJ526 on Longevity.*]
 * Nicotinamide Riboside [ precursor to nicotinamide adenine dinucleotide (NAD), a ubiquitous molecule that mediates energy production in cells.]
+
+
+A very extensive pharmacological perspective on targeting aging mechanism can be found [here](https://www.cell.com/trends/endocrinology-metabolism/fulltext/S1043-2760(22)00017-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1043276022000170%3Fshowall%3Dtrue).
+
+<a href="https://ibb.co/VHLKbwG"><img src="https://i.ibb.co/bH6fYbV/longevity-drugs1.jpg" alt="longevity-drugs1" border="0"></a>
 
 
 ### Parabiosis
@@ -184,7 +185,7 @@ On the other hand, the Conboys have also two recent papers (Mehdipour, 2020; Men
 Both the SENS foundation and Eli Dourado take these results to imply that the benefits from parabiosis / plasma exchange are not due to anything beneficial being present in young blood, but rather to the accumulation of "junk" in old blood. SENS does point to a bunch of specific cases where putative "young blood factors" turned out to be not so, ultimately GDF11 when tested on on lifespan has no effects. But they don't point to a study where they tried to inject young blood to old mice or other models; after all it is perfectly possible that GDF11 is not effective yet something else is. The only such study I could find was Shytikov et al. (2014) where they injected young blood plasma to old mice, finding no lifespan effects. The bulk of the evidence then points to dilution being a robust effect whereas we have not identified any specific factors in young blood that can induce rejuvenation. What then, is in Horvath's mysterious proprietary Elixir? Whatever is it, it doesn't have to be -nor they claim it to be- based on or inspired by, young blood factors. They have just shown that there are injections one can administer that cause systemic rejuvenation effects.
 
 
-### Drug combinations
+### Drug combinations and repurposing
  
 After reading the above, you probably thought: Hey, shouldn't we just try everything at the same time and see what happens? Indeed this seems to work.
 
@@ -195,8 +196,6 @@ In flies, a combination of rapamycin, trametinib, and lithium extended their lif
 In worms we already knew that certain mutations along the mTOR or IIS pathways can make worms live substantially longer. But what if we create a super-worm with many of them? Yes, they live longer (500% more) than what one would expect from the sum of the effects alone, report Lan et al. (2019), though again this same combination is unlikely to have as large effects in longer-lived species.
 
 This doesn´t mean that every combination is good. A recent study (Palliyaguru et al., 2020) showed that combining a STAC with metformin reduces longevity even when, in that study, metformin on its own has no effect and the STAC increases median (but not maximum) lifespan. More work is needed to determine exactly when drugs conferring putative longevity benefits will lead to synergies or the opposite.
-
-### Drug repurposing
 
 One of the key selling points to repurposing drugs for aging is that the barier of (FDA) aproval is much lover. Since there drugs have already passed these tests. For the theory and the computational aspect of drug repurposing please refer [here](https://www.nature.com/articles/nrd.2018.168).
 
@@ -320,7 +319,7 @@ Another important question is that aids in this decision is:
 
 > *How can you efficiently test lots of drugs for their effect on lifespan?*
 
->  You need a short-lived model organism and a low cost per experiment enabled by automation.
+>  For that, you need a short-lived model organism and a low cost per experiment enabled by automation.
 
 <a href="https://ibb.co/NNhRNfF"><img src="https://i.ibb.co/94XP4Bp/animal-model.jpg" alt="animal-model" border="0"></a>
 
@@ -372,4 +371,10 @@ Complete genome: A small 250Mb genome is sequenced, wel annotated and CRISPR-edi
 
 * Convenient to evaluate the results: It is enough for us to observe the Daphnia, i.e., their movements (no need to open them up or make molecular measurements). This enables automation and scaling up, using video cameras and image analysis of videos from many tanks in the hands of different teams.
 
-* ... also: It's a new idea, a new model organism for aging research. This has not been tried yet. Setting up an organism that is perfectly suited for the rapid testing of many drugs and their combinations is one of the primary aims in prolonging human life.
+**Disclaimer:** Even tough its a novel idea, to use daphnia as a default aging animal model, there are three big question marks regarding using Daphnia vs Mice:
+
+- What are the effect of the genetical difference?
+- What are the rffect of the fact that it is not a mammal?
+- What is the general translatability of the studies?
+
+Conclusive studies need to be conducted before the consensus switches from mice to daphnia as the default animal model of aging.
