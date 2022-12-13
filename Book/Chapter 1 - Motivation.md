@@ -111,7 +111,7 @@ In order to achieve the biological alternative of real time rendering, we face c
 
 ## Why longevity?
 
-Ever heard of a 25 year old with Alzheimers? Me neither. Longevity is arguebly root cause for majority of diseases. If we could solve longevity issue we could solve potentially majority of diseases.
+Ever heard of a 25 year old with Alzheimers? Me neither. Longevity is arguably root cause for majority of diseases. If we could solve longevity we could potentially solve majority of diseases.
 
 > *But what is the exact problem definition?*
 
@@ -125,9 +125,9 @@ We have two variables. X is the the health span and Y is the life span.
 Usually our health span peaks around 50 (or even sooner depending on the definition) and we proceed with life (span). What the actuall goal with longevity should be (or maybe not if you read some research papers) is to first optimize for the X variable as we are optimizing for the Y. Not the other way around. With this objective in mind we can aim for long, healthy life span. Not necesseraly solely life span for the sake of it. 
 
 
-Given that we have been trying to [solve this problem](https://www.amazon.com/dp/B00SHPD0N4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) for thousands of years, and still fail, is there a reasonable argument we could tackle longevity successfully now.
+Given that we have been trying to [solve this problem](https://www.amazon.com/dp/B00SHPD0N4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) for thousands of years, and still fail, is there a reasonable argument we could tackle longevity successfully now?
 
-We need some breakthroughs to argue for the **future horizon of longevity**. What are the developments coming from biology and chemistry and how can we supplement it computationally?
+We need some breakthroughs to argue for the **future horizon of longevity**. What are the developments coming from biology and chemistry and how can we supplement them computationally?
 
 # Future Horizon of Longevity
 One of the key challenges to understanding complex systems is the fallacy of assuming that correlation implies causation. For instance, the telomere shortening theory is widely regarded as a key factor in longevity. Telomeres are repetitive nucleotide sequences found at the ends of our chromosomes that are associated with proteins. The theory is that the length of telomeres directly impacts longevity. Scientists observed that mice with shorter telomeres tend to have shorter lifespans, and vice versa. However, when the theory was tested in humans, the results were less clear. In some cases, excess telomerase was linked to cancer. This raises the question of whether the length of telomeres is a cause of longevity, or if it is an effect. More data is needed to determine the answer.
